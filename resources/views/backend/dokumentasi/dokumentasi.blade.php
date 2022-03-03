@@ -28,7 +28,7 @@
         <div class="col-lg-12">
             <div class="shadow p-3 mb-4 bg-white rounded">
                 <div class="pb-3">
-                    <a href="/tambahdokumentasi" class="btn btn-primary">Tambah data</a>
+                    <a href="{{ url('tambahdokumentasi') }}" class="btn btn-primary">Tambah data</a>
                 </div>
                 <table id="datapengguna" class="table table-striped table-bordered" style="width:100%">
                     <thead>
