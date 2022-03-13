@@ -58,8 +58,8 @@
                     <div class="col-lg-8 col-md-8">
                         <div class="atf-top-header-in wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
                             <ul class="atf-top-header-list">
-                                <li><i class="fas fa-envelope"></i>Email: <a href="#">example@gmail.com</a></li>
-                                <li><i class="fas fa-phone-volume"></i>Contact: <a href="#">000-1112-2221 </a></li>
+                                <li><i class="fas fa-envelope"></i>Email: <a href="mailto:pancakaryapro@gmail.com">pancakaryapro@gmail.com</a></li>
+                                <li><i class="fas fa-phone-volume"></i>Contact: <a href="tel:+6281231242823">+62 812-3124-2823</a></li>
                             </ul>
                         </div>
                     </div><!--- END COL -->
@@ -86,8 +86,8 @@
 
                      <div class="nav-right-part nav-right-part-mobile">
                         <ul>
-                            <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li>
-                            <li class=""><a class="login-btn" href="#">Login</a></li>
+                            {{-- <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li> --}}
+                            <li class=""><a class="login-btn" href="/login">Login</a></li>
                             {{-- <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li> --}}
                         </ul>
                     </div>
