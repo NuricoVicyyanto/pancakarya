@@ -9,9 +9,9 @@
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 <!-- SITE TITLE -->
-<title>Si - Perum</title>
+<title>Panca Karya - Website</title>
 <!-- Favicon -->
-<link rel="shortcut icon" href="{{asset('assets/img/favicon.png')}}" type="image/x-icon">
+<link rel="shortcut icon" href="{{asset('assets/img/logo.ico')}}" type="image/x-icon">
 
 
 <!-- Latest Bootstrap min CSS -->
@@ -68,7 +68,7 @@
                             <ul>
                                 {{-- <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li> --}}
                                 <li class=""><a class="login-btn" href="/login"">Login</a></li>
-                                <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li>
+                                {{-- <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li> --}}
                             </ul>
                         </div>
                     </div><!--- END COL -->
@@ -81,27 +81,30 @@
             <div class="container">
                 <div class="atf-main-header-in">
                     <div class="atf-main-header-left">
-                        <a class="atf-site-branding atf-white-logo" href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
+                        <a class="atf-site-branding atf-white-logo" href="/"><img src="assets/img/logo.png" alt="Logo"></a>
                     </div>
 
                      <div class="nav-right-part nav-right-part-mobile">
                         <ul>
                             <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li>
                             <li class=""><a class="login-btn" href="#">Login</a></li>
-                            <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li>
+                            {{-- <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li> --}}
                         </ul>
                     </div>
 
                     <div class="atf-main-header-right">
                         <div class="atf-nav">
                             <ul class="atf-nav-list atf-onepage-nav">
-                                <li><a href="#home" class="atf-smooth-move">Home</a>
+                                <li><a href="#home" class="atf-smooth-move">Dashboard</a>
 
                                 </li>
-                                <li><a href="#home" class="atf-smooth-move">Home</a>
+                                <li><a href="#home" class="atf-smooth-move">Belanja</a>
 
                                 </li>
-                                <li><a href="#home" class="atf-smooth-move">Home</a>
+                                <li><a href="#home" class="atf-smooth-move">Konsultasi</a>
+
+                                </li>
+								<li><a href="#home" class="atf-smooth-move">Kontak</a>
 
                                 </li>
                                 {{-- <li class="menu-item-has-children"><a href="#" class="atf-smooth-move">Page<i class="fa fa-chevron-down ml-2"></i></a>
@@ -111,7 +114,7 @@
                                         <li><a href="blog.html">Blog Grid</a></li>
                                     </ul>
                                 </li> --}}
-                                <li><a href="https://www.templatemonster.com/website-templates/al-majid-website-template-152091.html?_gl=1*1ley0u6*_ga*NDMyOTM1NTcxLjE2MTAxOTczNjQ.*_ga_FTPYEGT5LY*MTYxMDI4NzgyNS4zLjAuMTYxMDI4NzgzMS41NA..&_ga=2.145900727.2005536284.1610210101-432935571.1610197364">Pro Version</a></li>
+                                {{-- <li><a href="https://www.templatemonster.com/website-templates/al-majid-website-template-152091.html?_gl=1*1ley0u6*_ga*NDMyOTM1NTcxLjE2MTAxOTczNjQ.*_ga_FTPYEGT5LY*MTYxMDI4NzgyNS4zLjAuMTYxMDI4NzgzMS41NA..&_ga=2.145900727.2005536284.1610210101-432935571.1610197364">Pro Version</a></li> --}}
                             </ul><!--- END NAV -->
                         </div>
                     </div><!--- END MAIN HEADER RIGHT -->
