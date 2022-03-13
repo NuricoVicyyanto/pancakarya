@@ -98,13 +98,13 @@
                                 <li><a href="#home" class="atf-smooth-move">Dashboard</a>
 
                                 </li>
-                                <li><a href="#home" class="atf-smooth-move">Belanja</a>
+                                <li><a href="#keunggulan" class="atf-smooth-move">Belanja</a>
 
                                 </li>
-                                <li><a href="#home" class="atf-smooth-move">Konsultasi</a>
+                                <li><a href="#keunggulan" class="atf-smooth-move">Konsultasi</a>
 
                                 </li>
-								<li><a href="#home" class="atf-smooth-move">Kontak</a>
+								<li><a href="#keunggulan " class="atf-smooth-move">Kontak</a>
 
                                 </li>
                                 {{-- <li class="menu-item-has-children"><a href="#" class="atf-smooth-move">Page<i class="fa fa-chevron-down ml-2"></i></a>
@@ -136,12 +136,13 @@
 											<div class="row atf-single-slide-sm2 atf-align-items-details align-items-center atf-single-text justify-content-center">
 												 <!--LEFT COL-->
 												<div class="col-xl-6 col-lg-6 col-12 text-center atf-single-details ">
-													<h5 class="mb-0 d-block d-lg-block text-white">Tranding Now</h5>
-													<h2 class="mb-0 d-block d-lg-block">Best Promo Offer Man Your Collection.</h2>
-													<p class="pr-lg-5">A Theme for Woocomarce, E-commerce, Business, Bootstrap 5, Product, Sell and for Cart etc.</p>
+													<h5 class="mb-0 d-block d-lg-block text-white">Panca Karya</h5>
+													<h2 class="mb-0 d-block d-lg-block">WEBSITE PENJUALAN PROPERTI</h2>
+													<h2 class="mb-0 d-block d-lg-block">KABUPATEN JEMBER</h2>
+													<p class="pr-lg-2">Mudah, Cepat dan Amanah</p>
 													<!-- Main-btn -->
 													<div class="atf-main-btn mt-3"> 
-														<a href="/login" class="page-scroll atf-themes-btn">Order Now <i class="fa fa-angle-right"></i></a>
+														<a href="/login" class="page-scroll atf-themes-btn">Cari Sekarang<i class="fa fa-angle-right"></i></a>
 													</div>
 												</div><!--- END COL -->
 											</div><!--- END ROW -->
@@ -157,12 +158,13 @@
 											<div class="row atf-single-slide-sm2 atf-align-items-details align-items-center atf-single-text justify-content-center">
 												 <!--LEFT COL-->
 												<div class="col-xl-6 col-lg-6 col-12 text-center atf-single-details ">
-													<h5 class="mb-0 d-block d-lg-block text-white">Tranding Now</h5>
-													<h2 class="mb-0 d-block d-lg-block"> Best Promo Collection Offer of Laptop.</h2>
-													<p class="pr-lg-5">A Theme for Woocomarce, E-commerce, Business, Bootstrap 5, Product, Sell and for Cart etc.</p>
+													<h5 class="mb-0 d-block d-lg-block text-white">Panca Karya</h5>
+													<h2 class="mb-0 d-block d-lg-block">WEBSITE PENJUALAN PROPERTI</h2>
+													<h2 class="mb-0 d-block d-lg-block">KABUPATEN JEMBER</h2>
+													<p class="pr-lg-2">Mudah, Cepat dan Amanah</p>
 													<!-- Main-btn -->
 													<div class="atf-main-btn mt-3"> 
-														<a href="/login" class="page-scroll atf-themes-btn">Order Now <i class="fa fa-angle-right"></i></a>
+														<a href="/login" class="page-scroll atf-themes-btn">Cari Sekarang<i class="fa fa-angle-right"></i></a>
 													</div>
 												</div><!--- END COL -->
 											</div><!--- END ROW -->
@@ -178,12 +180,13 @@
 											<div class="row atf-single-slide-sm2 atf-align-items-details align-items-center atf-single-text justify-content-center">
 												 <!--LEFT COL-->
 												<div class="col-xl-6 col-lg-6 col-12 text-center atf-single-details ">
-													<h5 class="mb-0 d-block d-lg-block text-white">Tranding Now</h5>
-													<h2 class="mb-0 d-block d-lg-block"> Best Promo Offer Chair Your Collection.</h2>
-													<p class="pr-lg-5">A Theme for Woocomarce, E-commerce, Business, Bootstrap 5, Product, Sell and for Cart etc.</p>
+													<h5 class="mb-0 d-block d-lg-block text-white">Panca Karya</h5>
+													<h2 class="mb-0 d-block d-lg-block">WEBSITE PENJUALAN PROPERTI</h2>
+													<h2 class="mb-0 d-block d-lg-block">KABUPATEN JEMBER</h2>
+													<p class="pr-lg-2">Mudah, Cepat dan Amanah</p>
 													<!-- Main-btn -->
 													<div class="atf-main-btn mt-3"> 
-														<a href="/login" class="page-scroll atf-themes-btn">Order Now <i class="fa fa-angle-right"></i></a>
+														<a href="/login" class="page-scroll atf-themes-btn">Cari Sekarang<i class="fa fa-angle-right"></i></a>
 													</div>
 												</div><!--- END COL -->
 											</div><!--- END ROW -->
