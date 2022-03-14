@@ -54,8 +54,5 @@
   </div>
   <!-- /#page-content-wrapper -->
 </div>
-<!-- /#wrapper -->
-<!-- Tambah Guru -->
-<!-- /.content -->
 </div>
 @endsection
