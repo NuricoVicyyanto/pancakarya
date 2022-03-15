@@ -207,6 +207,60 @@
 			<!-- END  HOME DESIGN -->
 			
 			
+
+			<!-- START SERVICE SECTION  -->
+			
+			<section id="service" class="atf-service-area atf-section-padding">
+				<h3> <center> Keunggulan Kami </center></h3><br>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-4 col-md-6">
+							<div class="atf-single-service-wrap text-center">
+								<div class="atf-single-service-wrap">
+									<div class="atf-services-icon text-center mb-4">
+										<i class="fas fa-shipping-fast"></i>
+									</div>
+									<div class="atf-service-content">
+										<h3>Pelayanan 24 Jam</h3>
+										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+									</div>
+								</div>
+							</div>   
+						</div>
+						
+						<div class="col-lg-4 col-md-6">
+							<div class="atf-single-service-wrap text-center">
+								<div class="atf-single-service-wrap">
+									<div class="atf-services-icon text-center mb-4">
+										<i class="fas fa-envelope-open-text"></i>
+									</div>
+									<div class="atf-service-content">
+										<h3>Siap Survey Kapan Saja</h3>
+										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+									</div>
+								</div>
+							</div>   
+						</div>
+						
+						<div class="col-lg-4 col-md-6">
+							<div class="atf-single-service-wrap text-center">
+								<div class="atf-single-service-wrap">
+									<div class="atf-services-icon text-center mb-4">
+										<i class="fas fa-money-bill-alt"></i>
+									</div>
+									<div class="atf-service-content">
+										<h3>Mudah Saat Transaksi</h3>
+										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+									</div>
+								</div>
+							</div>   
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Service-Area End-->
+
+
 			
 			<!-- Special Offer Area -->
 			<div class="atf-special-offer atf-section-padding pb-0">
@@ -240,151 +294,238 @@
 			
 			
 			
-			<!-- START SERVICE SECTION  -->
-			<section id="service" class="atf-service-area atf-section-padding">
+			<div class="atf-section-padding atf-blog-area atf-blog-grid-area">			
 				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-4 col-md-6">
-							<div class="atf-single-service-wrap text-center">
-								<div class="atf-single-service-wrap">
-									<div class="atf-services-icon text-center mb-4">
-										<i class="fas fa-shipping-fast"></i>
+					<div class="atf-slider atf-style2">
+						<div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"  data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-lg-slides="3" data-add-slides="3">
+							<div class="slick-wrapper">
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
 									</div>
-									<div class="atf-service-content">
-										<h3>Free Shipping</h3>
-										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
 									</div>
-								</div>
-							</div>   
-						</div>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
+									</div>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
+									</div>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
+									</div>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
+									</div>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
+									</div>
+								</div><!-- .slick-slide-in -->
+							</div><!-- .slick-slide-Wrapper -->
+						</div><!-- .slick-container -->
 						
-						<div class="col-lg-4 col-md-6">
-							<div class="atf-single-service-wrap text-center">
-								<div class="atf-single-service-wrap">
-									<div class="atf-services-icon text-center mb-4">
-										<i class="fas fa-envelope-open-text"></i>
-									</div>
-									<div class="atf-service-content">
-										<h3>24/7 support</h3>
-										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
-									</div>
-								</div>
-							</div>   
+						<div class="pagination atf-style1 atf-flex atf-hidden"></div> <!-- If dont need Pagination then add class .atf-hidden -->
+						<div class="swipe-arrow atf-style1"> <!-- If dont need navigation then add class .atf-hidden -->
+							<div class="slick-arrow-left"><i class="fa fa-chevron-left"></i></div>
+							<div class="slick-arrow-right"><i class="fa fa-chevron-right"></i></div>
 						</div>
-						
-						<div class="col-lg-4 col-md-6">
-							<div class="atf-single-service-wrap text-center">
-								<div class="atf-single-service-wrap">
-									<div class="atf-services-icon text-center mb-4">
-										<i class="fas fa-money-bill-alt"></i>
-									</div>
-									<div class="atf-service-content">
-										<h3>Secure Payment</h3>
-										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
-									</div>
-								</div>
-							</div>   
+					</div><br><!-- .atf-slider -->
+
+					{{-- Teruskan Ke Produk --}}
+					<div class="row">
+						<div class="atf-main-btn atf-blog-btn col-lg 12 d-flex justify-content-end">
+							<?php
+							if (isset($_SESSION['username'])) {
+								?>
+								<a type="button" class="atf-themes-btn"  href="">
+									Selengkapnya
+								</a>
+							<?php
+							}else{
+								?>
+								<a type="button" class="atf-themes-btn"  href="">
+									Selengkapnya
+								</a>
+		
+							<?php }
+						?>
 						</div>
 					</div>
-				</div>
-			</section>
-			<!-- Service-Area End-->
-			
-			
-			
-			<!-- START COMPANY BRAND LOGO  -->
-			<div id="atf-brand-area" class="atf-brand-area atf-section-padding">
-				<div class="atf-brand-overlay">
-					<div class="container">
-						<div class="atf-slider atf-style2">
-							<div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"  data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="3" data-md-slides="3" data-lg-slides="5" data-add-slides="3">
-								<div class="slick-wrapper">
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/1.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/2.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/3.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/4.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/5.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/1.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/2.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									
-								</div><!-- .slick-slide-Wrapper -->
-							</div><!-- .slick-container -->
-							
-							<div class="pagination atf-style1 atf-flex atf-hidden"></div> <!-- If dont need Pagination then add class .atf-hidden -->
-							<div class="swipe-arrow atf-style1"> <!-- If dont need navigation then add class .atf-hidden -->
-								<div class="slick-arrow-left"><i class="fa fa-chevron-left"></i></div>
-								<div class="slick-arrow-right"><i class="fa fa-chevron-right"></i></div>
-							</div>
-						</div><!-- .atf-slider -->
-					</div><!-- .container -->	
-				</div><!-- END OVERLAY -->
-			</div>
-			<!-- END COMPANY BRAND LOGO -->
-			
-			
-			
-			
-		   
-		   
-		   <!-- START NEWSLETTER -->
-			{{-- <section  class="atf-newsletter atf-section-padding">
-				<div class="container">
-					<div class="row clearfix justify-content-center">
-						<div class="col-xl-6 col-lg-6 col-12 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-							<div class="atf-mailchamp-headding">
-								<h2>Subcribe Today of Newletter</h2>
-							</div>
-						</div><!-- END COL -->
-						
-						<div class="col-xl-6 col-lg-6 col-12 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">	
-							<div class="atf-mailchamp-subscribe">
-								<form class="form-group" id="mc-form">
-									<input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required="required">
-									<button type="submit" id="subscribe-button" class="btn"><i class="fas fa-envelope"></i></button>
-										<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
-										<br>
-										<label class="atf-subscription-label" for="email"></label>
-								</form>
-							</div>
-						</div><!-- END COL -->
-					</div><!-- END ROW -->
-				</div><!-- END CONTAINER -->
-			</section> --}}
-			<!-- END NEWSLETTER -->
-			
-			
+				</div><br><br><!-- .container -->	
+
 			
 			<!-- FOOTER SECTION START-->
 			<footer class="atf-footer-area atf-pattern-area">
