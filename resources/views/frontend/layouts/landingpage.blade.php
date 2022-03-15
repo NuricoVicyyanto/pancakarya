@@ -98,7 +98,7 @@
                                 <li><a href="#home" class="atf-smooth-move">Dashboard</a>
 
                                 </li>
-                                <li><a href="#keunggulan" class="atf-smooth-move">Belanja</a>
+                                <li><a href="#keunggulan" class="atf-smooth-move">Perumahan</a>
 
                                 </li>
                                 <li><a href="#keunggulan" class="atf-smooth-move">Konsultasi</a>
@@ -536,7 +536,7 @@
 							</div><!--- END COL -->
 							
 							<div class="col-lg-2 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
-								<a href="#"><i class=""></i><h5>Belanja</h5></a>
+								<a href="#"><i class=""></i><h5>Perumahan</h5></a>
 							</div><!--- END COL -->
 							
 							<div class="col-lg-4 col-md-6 col-12 atf-footer-link text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0">
@@ -547,7 +547,7 @@
 								<h4 class="text-white mt-2">Ikuti Kami</h4>
 								<div class="atf-footer-social-icon mt-3 text-left">
 									<a href="mailto:pancakaryapro@gmail.com" target="_blank" class="icon"> <i class="fas fa-envelope"></i>
-									<a href="#" target="_blank" class="icon"> <i class="fab fa-facebook"></i> </a>
+									<a href="https://www.facebook.com/panca.k.property" target="_blank" class="icon"> <i class="fab fa-facebook"></i> </a>
 									<a href="https://www.instagram.com/thepancakarya/?utm_medium=copy_link" target="_blank" class="icon"> <i class="fab fa-instagram"></i> </a>
 								</div>
 							</div><!--- END COL -->
