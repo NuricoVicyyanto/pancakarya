@@ -7,7 +7,7 @@
         <form action="{{ url($dok->id)}}" method="post" enctype="multipart/form-data">
             <img src="{{ asset($dok->sampul)}}"  class="img-thumbnail" alt="responsive image">
         </div>
-    
+
         <div class="col-md-4">
         <h3 class="my-3">{{ $dok->namaproduk }}</h3>
         <p>{{ $dok->deskripsi }}</p>
