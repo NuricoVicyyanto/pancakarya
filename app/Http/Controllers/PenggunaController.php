@@ -17,6 +17,10 @@ class PenggunaController extends Controller
         return view('backend.pengguna.pengguna',compact('dtPengguna'));
     }
 
+    // public function show()
+    // $count = Pengguna::count();
+    // return View::make('')->with('count', $count);
+
     /**
      * Show the form for creating a new resource.
      *
