@@ -43,7 +43,7 @@
 
     <br><br><br><br>
     <div class="judul-card bg-light">
-        <h1 class="display-4">Daftar Perumahan</h1>
+        <center><h1 class="display-4">KATALOG</h1></center>
         <hr>
 
 
@@ -88,8 +88,22 @@
                         <a href="#">Best Laptop Discount 30%..</a>
                     </h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">INFO DETAIL</a>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                    <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
                   </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem; margin: 40px;">
+                 <img src="../assets/img/blog/3.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="atf-post-title">
+                        <a href="#">Best Laptop Discount 30%..</a>
+                    </h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                      <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
+                    </div>
                 </div>
               </div>
               <div class="col-md-4">
@@ -100,8 +114,9 @@
                         <a href="#">Best Laptop Discount 30%..</a>
                     </h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">INFO DETAIL</a>
-                  </div>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                      <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
+                    </div>
                 </div>
               </div>
               <div class="col-md-4">
@@ -112,20 +127,9 @@
                         <a href="#">Best Laptop Discount 30%..</a>
                     </h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">INFO DETAIL</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card" style="width: 20rem; margin: 40px;">
-                 <img src="../assets/img/blog/3.jpg" alt="">
-                  <div class="card-body">
-                    <h4 class="atf-post-title">
-                        <a href="#">Best Laptop Discount 30%..</a>
-                    </h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">INFO DETAIL</a>
-                  </div>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                      <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
+                    </div>
                 </div>
               </div>
               <div class="col-md-4">
@@ -136,8 +140,87 @@
                         <a href="#">Best Laptop Discount 30%..</a>
                     </h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">INFO DETAIL</a>
-                  </div>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                      <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem; margin: 40px;">
+                 <img src="../assets/img/blog/3.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="atf-post-title">
+                        <a href="#">Best Laptop Discount 30%..</a>
+                    </h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                      <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem; margin: 40px;">
+                <img src="../assets/img/blog/3.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="atf-post-title">
+                        <a href="#">Best Laptop Discount 30%..</a>
+                    </h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                      <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem; margin: 40px;">
+                 <img src="../assets/img/blog/3.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="atf-post-title">
+                        <a href="#">Best Laptop Discount 30%..</a>
+                    </h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                      <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem; margin: 40px;">
+                <img src="../assets/img/blog/3.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="atf-post-title">
+                        <a href="#">Best Laptop Discount 30%..</a>
+                    </h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                      <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem; margin: 40px;">
+                 <img src="../assets/img/blog/3.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="atf-post-title">
+                        <a href="#">Best Laptop Discount 30%..</a>
+                    </h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                      <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem; margin: 40px;">
+                <img src="../assets/img/blog/3.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="atf-post-title">
+                        <a href="#">Best Laptop Discount 30%..</a>
+                    </h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                      <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>                  </div>
+                    </div>
                 </div>
               </div>
             </div>
