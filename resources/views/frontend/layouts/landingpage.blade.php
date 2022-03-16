@@ -533,15 +533,15 @@
 							</div><!--- END COL -->
 							
 							<div class="col-lg-2 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-								<a href="#"><i class=""></i><h5>Dashboard</h5></a>
+								<a href="/"><i class=""></i><h5>Dashboard</h5></a>
 							</div><!--- END COL -->
 							
 							<div class="col-lg-2 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
-								<a href="#"><i class=""></i><h5>Perumahan</h5></a>
+								<a href="/produk"><i class=""></i><h5>Perumahan</h5></a>
 							</div><!--- END COL -->
 							
 							<div class="col-lg-4 col-md-6 col-12 atf-footer-link text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0">
-								<a href="#"><i class=""></i><h5>Kontak</h5></a>
+								<a href="/contact"><i class=""></i><h5>Kontak</h5></a>
 								<div class="atf-footer-con">
 									<p>Hubungi di beberapa Platform Sosial Media kami</p>
 								</div>
