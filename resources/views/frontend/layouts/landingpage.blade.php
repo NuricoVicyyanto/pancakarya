@@ -98,7 +98,7 @@
                                 <li><a href="#home" class="atf-smooth-move">Dashboard</a>
 
                                 </li>
-                                <li><a href="#keunggulan" class="atf-smooth-move">Belanja</a>
+                                <li><a href="#keunggulan" class="atf-smooth-move">Perumahan</a>
 
                                 </li>
                                 <li><a href="#keunggulan" class="atf-smooth-move">Konsultasi</a>
@@ -107,14 +107,6 @@
 								<li><a href="#keunggulan " class="atf-smooth-move">Kontak</a>
 
                                 </li>
-                                {{-- <li class="menu-item-has-children"><a href="#" class="atf-smooth-move">Page<i class="fa fa-chevron-down ml-2"></i></a>
-                                    <ul>
-                                        <li><a href="contact.html">Contact us</a></li>
-                                        <li><a href="error.html">404</a></li>
-                                        <li><a href="blog.html">Blog Grid</a></li>
-                                    </ul>
-                                </li> --}}
-                                {{-- <li><a href="https://www.templatemonster.com/website-templates/al-majid-website-template-152091.html?_gl=1*1ley0u6*_ga*NDMyOTM1NTcxLjE2MTAxOTczNjQ.*_ga_FTPYEGT5LY*MTYxMDI4NzgyNS4zLjAuMTYxMDI4NzgzMS41NA..&_ga=2.145900727.2005536284.1610210101-432935571.1610197364">Pro Version</a></li> --}}
                             </ul><!--- END NAV -->
                         </div>
                     </div><!--- END MAIN HEADER RIGHT -->
@@ -207,6 +199,60 @@
 			<!-- END  HOME DESIGN -->
 			
 			
+
+			<!-- START SERVICE SECTION  -->
+			
+			<section id="service" class="atf-service-area atf-section-padding">
+				<h3> <center> Keunggulan Kami </center></h3><br>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-4 col-md-6">
+							<div class="atf-single-service-wrap text-center">
+								<div class="atf-single-service-wrap">
+									<div class="atf-services-icon text-center mb-4">
+										<i class="fas fa-shipping-fast"></i>
+									</div>
+									<div class="atf-service-content">
+										<h3>Pelayanan 24 Jam</h3>
+										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+									</div>
+								</div>
+							</div>   
+						</div>
+						
+						<div class="col-lg-4 col-md-6">
+							<div class="atf-single-service-wrap text-center">
+								<div class="atf-single-service-wrap">
+									<div class="atf-services-icon text-center mb-4">
+										<i class="fas fa-envelope-open-text"></i>
+									</div>
+									<div class="atf-service-content">
+										<h3>Siap Survey Kapan Saja</h3>
+										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+									</div>
+								</div>
+							</div>   
+						</div>
+						
+						<div class="col-lg-4 col-md-6">
+							<div class="atf-single-service-wrap text-center">
+								<div class="atf-single-service-wrap">
+									<div class="atf-services-icon text-center mb-4">
+										<i class="fas fa-money-bill-alt"></i>
+									</div>
+									<div class="atf-service-content">
+										<h3>Mudah Saat Transaksi</h3>
+										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+									</div>
+								</div>
+							</div>   
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Service-Area End-->
+
+
 			
 			<!-- Special Offer Area -->
 			<div class="atf-special-offer atf-section-padding pb-0">
@@ -240,202 +286,269 @@
 			
 			
 			
-			<!-- START SERVICE SECTION  -->
-			<section id="service" class="atf-service-area atf-section-padding">
+			<div class="atf-section-padding atf-blog-area atf-blog-grid-area">			
 				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-4 col-md-6">
-							<div class="atf-single-service-wrap text-center">
-								<div class="atf-single-service-wrap">
-									<div class="atf-services-icon text-center mb-4">
-										<i class="fas fa-shipping-fast"></i>
+					<div class="atf-slider atf-style2">
+						<div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"  data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-lg-slides="3" data-add-slides="3">
+							<div class="slick-wrapper">
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
 									</div>
-									<div class="atf-service-content">
-										<h3>Free Shipping</h3>
-										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
 									</div>
-								</div>
-							</div>   
-						</div>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
+									</div>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
+									</div>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
+									</div>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
+									</div>
+								</div><!-- .slick-slide-in -->
+								
+								<div class="slick-slide-in">
+									<div class="atf-post-slide">
+										<div class="atf-post-pic">
+											<img src="../assets/img/blog/3.jpg" alt="">
+											<ul class="atf-post-category">
+												<li><a href="#">29 Dec,</a></li>
+												<li><a href="#">2020</a></li>
+											</ul>
+										</div>
+										<div class="atf-post-header">
+											<ul class="atf-post-bar">
+												<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+												<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+												<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+											</ul>
+											<h4 class="atf-post-title">
+												<a href="#">Best Laptop Discount 30%..</a>
+											</h4>
+										</div>
+										<p class="atf-post-description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										</p>
+										<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+											<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+										</div>
+									</div>
+								</div><!-- .slick-slide-in -->
+							</div><!-- .slick-slide-Wrapper -->
+						</div><!-- .slick-container -->
 						
-						<div class="col-lg-4 col-md-6">
-							<div class="atf-single-service-wrap text-center">
-								<div class="atf-single-service-wrap">
-									<div class="atf-services-icon text-center mb-4">
-										<i class="fas fa-envelope-open-text"></i>
-									</div>
-									<div class="atf-service-content">
-										<h3>24/7 support</h3>
-										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
-									</div>
-								</div>
-							</div>   
+						<div class="pagination atf-style1 atf-flex atf-hidden"></div> <!-- If dont need Pagination then add class .atf-hidden -->
+						<div class="swipe-arrow atf-style1"> <!-- If dont need navigation then add class .atf-hidden -->
+							<div class="slick-arrow-left"><i class="fa fa-chevron-left"></i></div>
+							<div class="slick-arrow-right"><i class="fa fa-chevron-right"></i></div>
 						</div>
-						
-						<div class="col-lg-4 col-md-6">
-							<div class="atf-single-service-wrap text-center">
-								<div class="atf-single-service-wrap">
-									<div class="atf-services-icon text-center mb-4">
-										<i class="fas fa-money-bill-alt"></i>
-									</div>
-									<div class="atf-service-content">
-										<h3>Secure Payment</h3>
-										<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
-									</div>
-								</div>
-							</div>   
+					</div><br><!-- .atf-slider -->
+
+					{{-- Teruskan Ke Produk --}}
+					<div class="row">
+						<div class="atf-main-btn atf-blog-btn col-lg 12 d-flex justify-content-end">
+							<?php
+							if (isset($_SESSION['username'])) {
+								?>
+								<a href="#" class="btn atf-themes-btn">Selengkapnya <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+							<?php
+							}else{
+								?>
+								<a href="#" class="btn atf-themes-btn disabled">Selengkapnya <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+		
+							<?php }
+						?>
 						</div>
 					</div>
-				</div>
-			</section>
-			<!-- Service-Area End-->
-			
-			
-			
-			<!-- START COMPANY BRAND LOGO  -->
-			<div id="atf-brand-area" class="atf-brand-area atf-section-padding">
-				<div class="atf-brand-overlay">
-					<div class="container">
-						<div class="atf-slider atf-style2">
-							<div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"  data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="3" data-md-slides="3" data-lg-slides="5" data-add-slides="3">
-								<div class="slick-wrapper">
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/1.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/2.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/3.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/4.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/5.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/1.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									
-									<div class="slick-slide-in">
-										<div class="atf-brand-active">
-											<a href="#"><img src="assets/img/partner/2.png" alt="image"></a>
-										</div>
-									</div><!-- .slick-slide-in -->
-									
-								</div><!-- .slick-slide-Wrapper -->
-							</div><!-- .slick-container -->
-							
-							<div class="pagination atf-style1 atf-flex atf-hidden"></div> <!-- If dont need Pagination then add class .atf-hidden -->
-							<div class="swipe-arrow atf-style1"> <!-- If dont need navigation then add class .atf-hidden -->
-								<div class="slick-arrow-left"><i class="fa fa-chevron-left"></i></div>
-								<div class="slick-arrow-right"><i class="fa fa-chevron-right"></i></div>
-							</div>
-						</div><!-- .atf-slider -->
-					</div><!-- .container -->	
-				</div><!-- END OVERLAY -->
-			</div>
-			<!-- END COMPANY BRAND LOGO -->
-			
-			
-			
-			
-		   
-		   
-		   <!-- START NEWSLETTER -->
-			{{-- <section  class="atf-newsletter atf-section-padding">
-				<div class="container">
-					<div class="row clearfix justify-content-center">
-						<div class="col-xl-6 col-lg-6 col-12 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-							<div class="atf-mailchamp-headding">
-								<h2>Subcribe Today of Newletter</h2>
-							</div>
-						</div><!-- END COL -->
-						
-						<div class="col-xl-6 col-lg-6 col-12 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">	
-							<div class="atf-mailchamp-subscribe">
-								<form class="form-group" id="mc-form">
-									<input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required="required">
-									<button type="submit" id="subscribe-button" class="btn"><i class="fas fa-envelope"></i></button>
-										<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
-										<br>
-										<label class="atf-subscription-label" for="email"></label>
-								</form>
-							</div>
-						</div><!-- END COL -->
-					</div><!-- END ROW -->
-				</div><!-- END CONTAINER -->
-			</section> --}}
-			<!-- END NEWSLETTER -->
-			
-			
+				</div><br><br><!-- .container -->	
+
 			
 			<!-- FOOTER SECTION START-->
 			<footer class="atf-footer-area atf-pattern-area">
 				<div class="container">
-					<div class="atf-footer-top mt-5">
+					<div class="atf-footer-top mt-4">
 						<div class="row">
-							<div class="col-lg-4 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+							<div class="col-lg-4 col-md-6 col-12" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
 								<div class="atf-footer-box">
-									<h5><a href=""><img class="atf-footer-logo" src="assets/img/logo.png" alt="" /></a></h5>
+									<h5><a href=""><img class="atf-footer-logo" src="assets/img/logowhite.png" alt="" /></a></h5><br>
 									<ul class="pr-lg-5">
-										<li>1 Grafton Street, Dublin, Ireland</li>
-										<li>(+222) 245 88 <br> (+258) 878 369</li>
-										<li>example@gmail.com</li>
+										<li>Jl. Melon II Blok C - 2</li>
+										<li>+62 812-3124-2823</li>
+										<li>pancakaryapro@gmail.com</li>
 									</ul>
 								</div>
 							</div><!--- END COL -->
 							
 							<div class="col-lg-2 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-								<h5>Quick Links</h5>
-								<ul class="atf-list-menu">
-									<li> <a href="#"><i class="fas fa-angle-right mr-2"></i>Get Stared</a></li>
-									<li> <a href="#"><i class="fas fa-angle-right mr-2"></i>Our Team</a></li>
-									<li> <a href="#"><i class="fas fa-angle-right mr-2"></i>About Us</a></li>
-									<li> <a href="#"><i class="fas fa-angle-right mr-2"></i>Need Helps</a></li>
-									<li> <a href="#"><i class="fas fa-angle-right mr-2"></i>Contact Us</a></li>
-								</ul>
+								<a href="#"><i class=""></i><h5>Dashboard</h5></a>
 							</div><!--- END COL -->
 							
 							<div class="col-lg-2 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
-								<h5>Support Links</h5>
-								<ul class="atf-list-menu">
-									<li><a href="#"><i class="fas fa-angle-right mr-2"></i>Our Terms</a></li>
-									<li><a href="#"><i class="fas fa-angle-right mr-2"></i>Our Service</a></li>
-									<li><a href="#"><i class="fas fa-angle-right mr-2"></i>Privacy Policy</a></li>
-									<li><a href="#"><i class="fas fa-angle-right mr-2"></i>Licenses</a></li>
-									<li><a href="#"><i class="fas fa-angle-right mr-2"></i>Our News</a></li>
-								</ul>
+								<a href="#"><i class=""></i><h5>Perumahan</h5></a>
 							</div><!--- END COL -->
 							
 							<div class="col-lg-4 col-md-6 col-12 atf-footer-link text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0">
-								<h5>Contact Us</h5>
+								<a href="#"><i class=""></i><h5>Kontak</h5></a>
 								<div class="atf-footer-con">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Maecenas gravida nulla.</p>
+									<p>Hubungi di beberapa Platform Sosial Media kami</p>
 								</div>
-								<h4 class="text-white mt-2">Follow Us</h4>
+								<h4 class="text-white mt-2">Ikuti Kami</h4>
 								<div class="atf-footer-social-icon mt-3 text-left">
-									<a href="#" class="icon"> <i class="fab fa-facebook"></i> </a>
-									<a href="#" class="icon"> <i class="fab fa-dribbble"></i> </a>
-									<a href="#" class="icon"> <i class="fab fa-behance"></i> </a>
-									<a href="#" class="icon"> <i class="fab fa-linkedin"></i> </a>
-									<a href="#" class="icon"> <i class="fab fa-twitter"></i> </a>
+									<a href="mailto:pancakaryapro@gmail.com" target="_blank" class="icon"> <i class="fas fa-envelope"></i>
+									<a href="https://www.facebook.com/panca.k.property" target="_blank" class="icon"> <i class="fab fa-facebook"></i> </a>
+									<a href="https://www.instagram.com/thepancakarya/?utm_medium=copy_link" target="_blank" class="icon"> <i class="fab fa-instagram"></i> </a>
 								</div>
 							</div><!--- END COL -->
 						</div><!--- END ROW -->
@@ -445,21 +558,8 @@
 				<div class="atf-footer-boottom mt-4">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-5 col-xl-5 col-12 my-auto text-lg-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-								<p>&copy;Copyright - All Right Reserved.Designed <i class="fa fa-heart ml-1 mr-1"></i> by <a href="#">Theme Family</a> </p>
-							</div><!--- END COL -->
-							
-							 <div class="col-lg-7 col-xl-7 col-12">
-								{{-- <div class="atf-payment-area text-lg-right my-auto mx-auto">
-									<ul>
-										<li><a href="#"><img src="assets/img/payment/1.png" alt="img"></a></li>
-										<li><a href="#"><img src="assets/img/payment/2.png" alt="img"></a></li>
-										<li><a href="#"><img src="assets/img/payment/3.png" alt="img"></a></li>
-										<li><a href="#"><img src="assets/img/payment/1.png" alt="img"></a></li>
-										<li><a href="#"><img src="assets/img/payment/2.png" alt="img"></a></li>
-										<li><a href="#"><img src="assets/img/payment/3.png" alt="img"></a></li>
-									</ul>
-								</div> --}}
+							<div class="my-auto text-lg-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+								<p>&copy;2020 Panca Karya  - All Right Reserved.Designed <i class="fa fa-heart ml-1 mr-1"></i> by <a href="#">Theme Family</a> </p>
 							</div><!--- END COL -->
 						</div><!--- END ROW -->
 					</div>
