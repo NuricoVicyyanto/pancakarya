@@ -74,8 +74,10 @@
                         <a href="#">Best Laptop Discount 30%..</a>
                     </h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">INFO DETAIL</a>
-                  </div>
+                    <div class="atf-main-btn atf-blog-btn mt-2">
+                        <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                    </div>
+                </div>
                 </div>
               </div>
               <div class="col-md-4">
