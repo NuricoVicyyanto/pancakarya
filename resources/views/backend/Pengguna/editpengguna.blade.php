@@ -28,7 +28,7 @@
             <input name="email" required type="email" id="email" class="form-control" placeholder="Email" value="{{ $peng->email}}">
           </div>
           <div class="form-group">
-            <input name="password" required type="password" id="Password" class="form-control" placeholder="Password" value="{{ $peng->password}}">
+            <input name="password" required type="text" id="Password" class="form-control" placeholder="Password" value="{{ $peng->password}}">
           </div>
           <div class="form-group">
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Kirim</button>
