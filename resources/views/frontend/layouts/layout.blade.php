@@ -33,50 +33,106 @@
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!--navbar-->
-    <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/homepage"><img src="{{asset('assetss/img/logo.png')}}" width="130" height="50" class=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link js-scroll-trigger" href="/homepage">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link js-scroll-trigger" href="/informasi">Informasi</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link js-scroll-trigger" href="/dokumentasis">Dokumentasi</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link js-scroll-trigger" href="/produk">Produk</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link js-scroll-trigger" href="/contact">Contact</a>
-                </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link" style="color:rgb(252, 252, 252);padding-top:10px;" href="#" data-toggle="dropdown">{{ auth()->user()->name }}<i class="fa fa-user fa-lg"></i></a>
-                        <ul class="dropdown-menu settings-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="../auth/profile.php"><i class="fa fa-cog fa-lg"></i> Settings</a>
-                            <li><a class="dropdown-item" href="../auth/profile.php"><i class="fa fa-user fa-lg"></i> Profile</a></li>
-                            <li><a class="dropdown-item" href="../auth/logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
-                        </ul>
-                </li>
-            </ul>
-            <span class="navbar-text">
-                <a href="/" class="btn btn-warning shadow">Log Out</a>
-            </span>
-          </div>
+    <!-- Page Wrapper -->
+<div class="page-wrapper">
+		
+    <!-- START PRELOADER -->
+    <div class="atf-preloader">
+        <div class="atf-status">
+            <div class="atf-status-mes"></div>
         </div>
-    </div>
-      </nav>
-    <br><br><br>
-<br><br>
+    </div> 
+    <!-- END PRELOADER -->	
+    
+    <!-- START back-to-top -->	
+    <button class="atf-scroll-top atf-back-to-top" data-targets="html">
+        <i class="fa fa-angle-up atf-scrollup-icon"></i>
+    </button>
+    <!-- END back-to-top-->	
+
+    <!-- Start Header Section -->
+    <header class="atf-site-header atf-style1 atf-sticky-header">
+        <div class="atf-top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <div class="atf-top-header-in wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+                            <ul class="atf-top-header-list">
+                                <li><i class="fas fa-envelope"></i>Email: <a href="mailto:pancakaryapro@gmail.com">pancakaryapro@gmail.com</a></li>
+                                <li><i class="fas fa-phone-volume"></i>Contact: <a href="tel:+6281231242823">+62 812-3124-2823</a></li>
+                            </ul>
+                        </div>
+                    </div><!--- END COL -->
+                    <div class="col-lg-4 col-md-4">
+                        <div class="nav-right-part nav-right-part-desktop">
+                            <ul>
+                                {{-- <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li> --}}
+                                <li class=""><a class="login-btn" href="/login"">Login</a></li>
+                                {{-- <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li> --}}
+                            </ul>
+                        </div>
+                    </div><!--- END COL -->
+                </div><!--- END ROW -->
+            </div><!--- END CONTAINER -->
+        </div><!--- END TOP HEADER -->
+
+
+        <div class="atf-main-header">
+            <div class="container">
+                <div class="atf-main-header-in">
+                    <div class="atf-main-header-left">
+                        <a class="atf-site-branding atf-white-logo" href="/"><img src="assets/img/logo.png" alt="Logo"></a>
+                    </div>
+
+                     <div class="nav-right-part nav-right-part-mobile">
+                        <ul>
+                            {{-- <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li> --}}
+                            <li class=""><a class="login-btn" href="/login">Login</a></li>
+                            {{-- <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li> --}}
+                        </ul>
+                    </div>
+
+                    <div class="atf-main-header-right">
+                        <div class="atf-nav">
+                            <ul class="atf-nav-list atf-onepage-nav">
+                                <li><a href="/informasis" class="atf-smooth-move">Dashboard</a>
+
+                                </li>
+                                <li><a href="/dokumentasis" class="atf-smooth-move">Perumahan</a>
+
+                                </li>
+                                <li><a href="/produk" class="atf-smooth-move">Konsultasi</a>
+
+                                </li>
+								<li><a href="/contatc" class="atf-smooth-move">Kontak</a>
+
+                                </li>
+                            </ul><!--- END NAV -->
+                        </div>
+                    </div><!--- END MAIN HEADER RIGHT -->
+                </div>
+            </div><!--- END CONTAINER -->
+        </div><!--- END MAIN HEADER -->
+    </header>
+    <!-- End Header Section -->
+    
+    <div class="atf-content clearfix">
+        <div class="atf-page-heading atf-size-md atf-dynamic-bg" data-stellar-background-ratio="0.3" style="background-image: url(../assets/img/blog/3.jpg); background-size:cover; background-position: center center;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-md-6 col-12">
+                        <div class="atf-page-heading-in text-center">
+                            <h1 class="atf-page-heading-title">Blog Grid Ful Width</h1>
+                            <div class="atf-post-label">
+                                <span><a href="index1.html">Home</a></span>
+                                <span>Blog</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- .atf-page-heading -->
+
     @yield('content')
 
 
