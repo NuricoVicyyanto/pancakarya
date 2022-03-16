@@ -95,16 +95,16 @@
                     <div class="atf-main-header-right">
                         <div class="atf-nav">
                             <ul class="atf-nav-list atf-onepage-nav">
-                                <li><a href="/informasis" class="atf-smooth-move">Dashboard</a>
+                                <li><a href="/" class="atf-smooth-move">Dashboard</a>
 
                                 </li>
-                                <li><a href="/dokumentasis" class="atf-smooth-move">Perumahan</a>
+                                <li><a href="/produk" class="atf-smooth-move">Perumahan</a>
 
                                 </li>
-                                <li><a href="/produk" class="atf-smooth-move">Konsultasi</a>
+                                <li><a href="#" class="atf-smooth-move">Konsultasi</a>
 
                                 </li>
-								<li><a href="/contatc" class="atf-smooth-move">Kontak</a>
+								<li><a href="/contact" class="atf-smooth-move">Kontak</a>
 
                                 </li>
                             </ul><!--- END NAV -->
@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </div>
-        </div><!-- .atf-page-heading -->
+        </div><br><!-- .atf-page-heading -->
 
     @yield('content')
 
