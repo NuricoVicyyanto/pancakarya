@@ -9,7 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>Pancakarya - Dashboard</title>
+    <link rel="shortcut icon" href="{{asset('assets/img/logo.ico')}}" type="image/x-icon">
 
     <!-- Custom fonts for this template-->
     <link href="{{asset('sbadmin/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
@@ -31,7 +32,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                    <img src="assets/img/logo.png" alt="Logo">
                 </div>
                 <div class="sidebar-brand-text mx-3">Pancakarya</div>
             </a>
@@ -85,6 +86,11 @@
                 <a class="nav-link" href="/informasis">
                     <i class="fas fa-fw fa-info"></i>
                     <span>Informasi</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pengguna">
+                    <i class="fas fa-fw fa-comment"></i>
+                    <span>Komentar</span></a>
             </li>
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -198,7 +204,10 @@
                         <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fas fa-envelope fa-fw"></i>
                             <!-- Counter - Messages -->
-                            <span class="badge badge-danger badge-counter">7</span>
+                            <span class="badge badge-danger badge-counter"><?php
+                                                                            $count = DB::table('Pengguna')->count();
+                                                                            echo $count;
+                                                                            ?></span>
                         </a>
                         <!-- Dropdown - Messages -->
                         <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
