@@ -2,15 +2,34 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/boorap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('assetss/css.css')}}">
-    <title>Si PEKA</title>
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+<!-- SITE TITLE -->
+<title>Panca Karya - Website</title>
+<!-- Favicon -->
+<link rel="shortcut icon" href="{{asset('assets/img/logo.ico')}}" type="image/x-icon">
+
+
+<!-- Latest Bootstrap min CSS -->
+<link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.css') }}">	
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap" rel="stylesheet">		
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="{{asset('assets/fonts/font-awesome.css')}}">
+<!--magnific-popup Css-->
+<link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
+<!--animate Css-->
+<link rel="stylesheet" href="{{asset('assets/css/animate.css')}}">
+<!--slick Css-->
+<link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
+<!-- Style CSS -->
+<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
 </head>
 
 <body>
@@ -59,65 +78,88 @@
     <br><br><br>
 <br><br>
     @yield('content')
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <a href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-        </a>
-
-        <div class="footer">
-            <div class="container">
-                <footer class="page-footer font-small blue pt-4">
-                    <div class="container-fluid text-center text-md-left">
-                        <div class="row">
-                            <div class="col-md-6 mt-md-0 mt-3">
-                                <!-- Content -->
-                                <h5 class="text-uppercase">Si PEKA</h5>
-                                <p>Si-PEKA adalah Sebuah website pertanian yang menyediakan informasi seputar
-                                    pertanian dan menyediakan produk pertanian.</p>
-                            </div>
-                            <hr class="clearfix w-100 d-md-none pb-3">
-                            <div class="col-md-3 mb-md-0 mb-3">
-                                <h5 class="text-uppercase">Contact</h5>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a class="navbar-brand text-dark" href="https://chat.whatsapp.com/Kb1NTOu8YlNJRbVjuu7fvb" target="_blank">
-                                            <img src="{{asset('assetss/img/whatsapp.png')}}" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                            Contact Via WhatsApp
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="navbar-brand text-dark" href="https://www.instagram.com/mchfahrony/" target="_blank" >
-                                            <img src="{{asset('assetss/img/instagram.png')}}" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                            Contact Via Instagram
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="navbar-brand text-dark" href="https://twitter.com/mchfahrony" target="_blank">
-                                            <img src="{{asset('assetss/img/twitter.png')}}" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                            Contact Via Twitter
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="navbar-brand text-dark" href="mailto:sipekabondowoso@gmail.com?subject=kepada%20developer%20Si%20PEKA%20" target="_blank" >
-                                            <img src="{{asset('assetss/img/gmail.png')}}" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                                            Contact Via Gmail
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <hr>
-            <div class="container">
-                <div class="bawah text-center py-3">© 2021 Copyright
-                </div>
-            </div>
-            </footer>
-        </div>
 
 
+			<!-- FOOTER SECTION START-->
+			<footer class="atf-footer-area atf-pattern-area">
+				<div class="container">
+					<div class="atf-footer-top mt-4">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-12" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+								<div class="atf-footer-box">
+									<h5><a href=""><img class="atf-footer-logo" src="assets/img/logowhite.png" alt="" /></a></h5><br>
+									<ul class="pr-lg-5">
+										<li>Jl. Melon II Blok C - 2</li>
+										<li>+62 812-3124-2823</li>
+										<li>pancakaryapro@gmail.com</li>
+									</ul>
+								</div>
+							</div><!--- END COL -->
+							
+							<div class="col-lg-2 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+								<a href="#"><i class=""></i><h5>Dashboard</h5></a>
+							</div><!--- END COL -->
+							
+							<div class="col-lg-2 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
+								<a href="#"><i class=""></i><h5>Perumahan</h5></a>
+							</div><!--- END COL -->
+							
+							<div class="col-lg-4 col-md-6 col-12 atf-footer-link text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0">
+								<a href="#"><i class=""></i><h5>Kontak</h5></a>
+								<div class="atf-footer-con">
+									<p>Hubungi di beberapa Platform Sosial Media kami</p>
+								</div>
+								<h4 class="text-white mt-2">Ikuti Kami</h4>
+								<div class="atf-footer-social-icon mt-3 text-left">
+									<a href="mailto:pancakaryapro@gmail.com" target="_blank" class="icon"> <i class="fas fa-envelope"></i>
+									<a href="https://www.facebook.com/panca.k.property" target="_blank" class="icon"> <i class="fab fa-facebook"></i> </a>
+									<a href="https://www.instagram.com/thepancakarya/?utm_medium=copy_link" target="_blank" class="icon"> <i class="fab fa-instagram"></i> </a>
+								</div>
+							</div><!--- END COL -->
+						</div><!--- END ROW -->
+					</div><!--- END SINGLE FOOTER -->
+				</div><!--- END CONTAINER -->
+					
+				<div class="atf-footer-boottom mt-4">
+					<div class="container">
+						<div class="row">
+							<div class="my-auto text-lg-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+								<p>&copy;2020 Panca Karya  - All Right Reserved.Designed <i class="fa fa-heart ml-1 mr-1"></i> by <a href="#">Theme Family</a> </p>
+							</div><!--- END COL -->
+						</div><!--- END ROW -->
+					</div>
+				</div>
+				<!-- FOOTER SECTION END-->	
+			</footer><!--- END FOOTER -->
+		</div>
+		<!-- PAGE WRAPPER END-->
 
+
+
+
+
+    <!-- Latest jQuery -->
+		<script src=" {{ asset('assets/js/jquery-1.12.4.min.js') }}"></script>
+		<!-- Latest compiled and minified Bootstrap -->
+		<script src=" {{ asset('assets/bootstrap/js/bootstrap.js') }}"></script>
+		<!-- modernizer JS -->		
+		<script src=" {{ asset('assets/js/modernizr.custom.js') }}"></script>	
+		<!-- magnific-popup js -->	
+		<script src=" {{ asset('assets/js/jquery.magnific-popup.js') }}"></script>			
+		<!-- stellar js -->
+		<script src=" {{ asset('assets/js/jquery.stellar.min.js') }}"></script>
+		<!-- slick js -->
+		<script src=" {{ asset('assets/js/slick.js') }}"></script>
+		<!-- countdown js -->
+		<script src=" {{ asset('assets/js/jquery.countdown.js') }}"></script>
+		<!-- wow js -->
+		<script src=" {{ asset('assets/js/wow.min.js') }}"></script>
+		<!-- ajaxchimp js -->
+		<script src=" {{ asset('assets/js/ajaxchimp.min.js') }}"></script>
+		<!-- form-contact js -->
+		<script src=" {{ asset('assets/js/form-contact.js') }}"></script>
+		<!-- main js -->
+		<script src=" {{ asset('assets/js/main.js') }}"></script>	
 </body>
 
 </html>
