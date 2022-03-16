@@ -125,7 +125,7 @@
                             <h1 class="atf-page-heading-title">Blog Grid Ful Width</h1>
                             <div class="atf-post-label">
                                 <span><a href="index1.html">Home</a></span>
-                                <span>Blog</span>
+                                {{-- <span>Blog</span> --}}
                             </div>
                         </div>
                     </div>
