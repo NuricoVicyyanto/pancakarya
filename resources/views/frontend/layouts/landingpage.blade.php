@@ -285,14 +285,14 @@
 					<div class="col-xl-7 col-lg-6 col-12 text-left">
 						<div class="atf-special-content atf-section-title  mx-auto my-auto">
 							{{-- <h4 class="mb-2">Get 30% Discount </h4> --}}
-							<p class="pr-lg-5">Panca Karya Property menjalankan usahanya di bidang pemasaran property di daerah Jember baik secara primary maupun secondary dan telah bekerjasama dengan developer atau disebut pengembang properti maupun dengan pemilik-pemilik properti yang ingin menjual propertinya yang nantinya akan di bantu oleh Panca Karya Property untuk dipasarkan.</p>
+							<p class="pr-lg-5 text-justify">Panca Karya Property menjalankan usahanya di bidang pemasaran property di daerah Jember baik secara primary maupun secondary dan telah bekerjasama dengan developer atau disebut pengembang properti maupun dengan pemilik-pemilik properti yang ingin menjual propertinya yang nantinya akan di bantu oleh Panca Karya Property untuk dipasarkan.</p>
 
-							<h2 class="mt-4" >Visi</h2>
-							<p class="pr-lg-5">Memberikan Kemudahan berinvetasi properti serta menjadi agen properti amanah dan terpercaya
+							<h2 class="mt-4 " >Visi</h2>
+							<p class="pr-lg-5 text-justify">Memberikan Kemudahan berinvetasi properti serta menjadi agen properti amanah dan terpercaya
 							</p>
 
 							<h2 class="mt-3">Misi</h2>
-							<p class="pr-lg-5">1. Menjadikan PANCA KARYA sebagai wadah terdepan dan sentral transaksi properti. <br>
+							<p class="pr-lg-5 text-justify">1. Menjadikan PANCA KARYA sebagai wadah terdepan dan sentral transaksi properti. <br>
 								2. Menjunjung tinggi nilai investasi dan kualitas produk, serta terwujudnya kemakmuran bagi nasabah. <br>
 								3. Memberikan pelayanan prima dan solusi terbaik untuk nasabah. <br>
 								4. Mewujudkan kepuasan nasabah dalam pelayanan kebutuhan properti. <br>
