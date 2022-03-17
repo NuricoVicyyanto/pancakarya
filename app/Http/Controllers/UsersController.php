@@ -16,10 +16,10 @@ class UsersController extends Controller
      */
     public function index()
     {
-        $users = Users::orderBy('time','DESC')->get();
+        $users = Users::orderBy('time', 'DESC')->get();
         $response = [
-        'massage'=>'List created ordered by time',
-        'data'=> $users
+            'massage' => 'List created ordered by time',
+            'data' => $users
         ];
         return response()->json($response, Response::HTTP_OK);
 
@@ -34,7 +34,7 @@ class UsersController extends Controller
     public function datauser()
     {
         $dtUser = Users::latest()->get();
-        return view('backend.user',compact('dtUser'));
+        return view('backend.user', compact('dtUser'));
     }
 
     public function forgetpassword()
@@ -62,32 +62,33 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        $validator = Validator::make($request->all(),[
-            'name'=>['required'],
-            'username'=>['required'],
-            'no_hp'=>['required'],
-            'email'=>['required'],
-            'level'=>['required', 'in:admin,user'],
-            'password'=>['required']
+        $validator = Validator::make($request->all(), [
+            'name' => ['required'],
+            'username' => ['required'],
+            'no_hp' => ['required'],
+            'email' => ['required'],
+            'level' => ['required', 'in:admin,user'],
+            'password' => ['required']
         ]);
 
         if ($validator->fails()) {
-            return response()->json($validator->errors(),
-            Response::HTTP_UNPROCESSABLE_ENTITY);
-
+            return response()->json(
+                $validator->errors(),
+                Response::HTTP_UNPROCESSABLE_ENTITY
+            );
         }
 
         try {
             $users = Users::create($request->all());
             $response = [
-                'message'=> 'account created',
+                'message' => 'account created',
                 'data' => $users
             ];
 
             return response()->json($response, Response::HTTP_CREATED);
         } catch (QueryException $e) {
             return response()->json([
-                'massage'=>"Failed " . $e->errorInfo
+                'massage' => "Failed " . $e->errorInfo
             ]);
         }
     }
@@ -102,7 +103,7 @@ class UsersController extends Controller
     {
         $users = Users::findOrFail($id);
         $response = [
-            'message'=> 'Detail of users resource',
+            'message' => 'Detail of users resource',
             'data' => $users
         ];
         return response()->json($response, Response::HTTP_OK);
@@ -129,32 +130,33 @@ class UsersController extends Controller
     public function update(Request $request, $id)
     {
         $users = Users::findOrFail($id);
-        $validator = Validator::make($request->all(),[
-            'name'=>['required'],
-            'username'=>['required'],
-            'no_hp'=>['required'],
-            'email'=>['required'],
-            'level'=>['required', 'in:admin,user'],
-            'password'=>['required']
+        $validator = Validator::make($request->all(), [
+            'name' => ['required'],
+            'username' => ['required'],
+            'no_hp' => ['required'],
+            'email' => ['required'],
+            'level' => ['required', 'in:admin,user'],
+            'password' => ['required']
         ]);
 
         if ($validator->fails()) {
-            return response()->json($validator->errors(),
-            Response::HTTP_UNPROCESSABLE_ENTITY);
-
+            return response()->json(
+                $validator->errors(),
+                Response::HTTP_UNPROCESSABLE_ENTITY
+            );
         }
 
         try {
             $users->update($request->all());
             $response = [
-                'message'=> 'account updated',
+                'message' => 'account updated',
                 'data' => $users
             ];
 
             return response()->json($response, Response::HTTP_OK);
         } catch (QueryException $e) {
             return response()->json([
-                'massage'=>"Failed " . $e->errorInfo
+                'massage' => "Failed " . $e->errorInfo
             ]);
         }
     }
@@ -172,14 +174,14 @@ class UsersController extends Controller
         try {
             $users->delete();
             $response = [
-                'message'=> 'account deleted',
+                'message' => 'account deleted',
                 'data' => $users
             ];
 
             return response()->json($response, Response::HTTP_OK);
         } catch (QueryException $e) {
             return response()->json([
-                'massage'=>"Failed " . $e->errorInfo
+                'massage' => "Failed " . $e->errorInfo
             ]);
         }
     }

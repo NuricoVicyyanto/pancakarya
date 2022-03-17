@@ -209,7 +209,9 @@
                                     <div class="status-indicator bg-success"></div>
                                 </div>
                                 <div class="font-weight-bold">
-                                    <div class="text-truncate"><td>#</td></div>
+                                    <div class="text-truncate">
+                                        <td>#</td>
+                                    </div>
                                 </div>
                             </a>
                             <a class="dropdown-item text-center small text-gray-500" href="/pengguna">Read More Messages</a>

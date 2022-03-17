@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
 use App\Models\Transaksi;
 
@@ -14,13 +15,13 @@ class TransaksiController extends Controller
     public function index()
     {
         $dtTransaksi = Transaksi::latest()->get();
-        return view('backend.transaksi.transaksi',compact('dtTransaksi'));
+        return view('backend.transaksi.transaksi', compact('dtTransaksi'));
     }
 
     public function datatransaksi()
     {
         $dtTransaksi = Transaksi::latest()->get();
-        return view('frontend.layouts.transaksiuser',compact('dtTransaksi'));
+        return view('frontend.layouts.transaksiuser', compact('dtTransaksi'));
     }
 
     /**
@@ -42,42 +43,40 @@ class TransaksiController extends Controller
     public function store(Request $request)
     {
         $nm = $request->gambar;
-        $namaFile = "http://127.0.0.1:8000/img/".$nm->getClientOriginalName();
+        $namaFile = "http://127.0.0.1:8000/img/" . $nm->getClientOriginalName();
 
-            $dtUpload = new transaksi;
-            $dtUpload->nama = $request->nama;
-            $dtUpload->alamat = $request->alamat;
-            $dtUpload->email = $request->email;
-            $dtUpload->produk = $request->produk;
-            $dtUpload->jumlah = $request->jumlah;
-            $dtUpload->gambar =$namaFile;
+        $dtUpload = new transaksi;
+        $dtUpload->nama = $request->nama;
+        $dtUpload->alamat = $request->alamat;
+        $dtUpload->email = $request->email;
+        $dtUpload->produk = $request->produk;
+        $dtUpload->jumlah = $request->jumlah;
+        $dtUpload->gambar = $namaFile;
 
-            $nm->move(public_path().'/img',$namaFile);
-            $dtUpload->save();
+        $nm->move(public_path() . '/img', $namaFile);
+        $dtUpload->save();
 
-            return redirect('transaksi');
-
+        return redirect('transaksi');
     }
 
 
     public function bayar(Request $request)
     {
         $nm = $request->gambar;
-        $namaFile = "http://127.0.0.1:8000/img/".$nm->getClientOriginalName();
+        $namaFile = "http://127.0.0.1:8000/img/" . $nm->getClientOriginalName();
 
-            $dtUpload = new transaksi;
-            $dtUpload->nama = $request->nama;
-            $dtUpload->alamat = $request->alamat;
-            $dtUpload->email = $request->email;
-            $dtUpload->produk = $request->produk;
-            $dtUpload->jumlah = $request->jumlah;
-            $dtUpload->gambar =$namaFile;
+        $dtUpload = new transaksi;
+        $dtUpload->nama = $request->nama;
+        $dtUpload->alamat = $request->alamat;
+        $dtUpload->email = $request->email;
+        $dtUpload->produk = $request->produk;
+        $dtUpload->jumlah = $request->jumlah;
+        $dtUpload->gambar = $namaFile;
 
-            $nm->move(public_path().'/img',$namaFile);
-            $dtUpload->save();
+        $nm->move(public_path() . '/img', $namaFile);
+        $dtUpload->save();
 
-            return redirect('transaksis');
-
+        return redirect('transaksis');
     }
     /**
      * Display the specified resource.
@@ -114,7 +113,7 @@ class TransaksiController extends Controller
         $ubah = Transaksi::findorfail($id);
         $awal = $ubah->gambar;
 
-        $dt =[
+        $dt = [
             'nama' => $request['nama'],
             'alamat' => $request['alamat'],
             'email' => $request['email'],
@@ -123,7 +122,7 @@ class TransaksiController extends Controller
             'gambar' => $awal,
         ];
 
-        $request->gambar->move(public_path().'/img', $awal);
+        $request->gambar->move(public_path() . '/img', $awal);
         $ubah->update($dt);
         return redirect('transaksi');
     }
@@ -137,9 +136,9 @@ class TransaksiController extends Controller
     public function destroy($id)
     {
         $dtTransaksi = Transaksi::findorfail($id);
-        $file = public_path('/img/').$dtTransaksi->gambar;
+        $file = public_path('/img/') . $dtTransaksi->gambar;
 
-        if (file_exists($file)){
+        if (file_exists($file)) {
             @unlink($file);
         }
 

@@ -15,13 +15,13 @@ class ProdukController extends Controller
     public function index()
     {
         $dtProduk = Produk::all();
-        return view('backend.produk.DataProduk',compact('dtProduk'));
+        return view('backend.produk.DataProduk', compact('dtProduk'));
     }
 
     public function produk()
     {
         $dtProduk = Produk::latest()->get();
-        return view('frontend.layouts.produk',compact('dtProduk'));
+        return view('frontend.layouts.produk', compact('dtProduk'));
     }
 
     public function detailproduk($id)
@@ -48,22 +48,21 @@ class ProdukController extends Controller
      */
     public function store(Request $request)
     {
-            $nm = $request->gambar;
-            $namaFile = "http://127.0.0.1:8000/img/".$nm->getClientOriginalName();
+        $nm = $request->gambar;
+        $namaFile = "http://127.0.0.1:8000/img/" . $nm->getClientOriginalName();
 
-                $dtUpload = new Produk();
-                $dtUpload->namaproduk = $request->namaproduk;
-                $dtUpload->deskripsi = $request->deskripsi;
-                $dtUpload->berat = $request->berat;
-                $dtUpload->stok = $request->stok;
-                $dtUpload->harga = $request->harga;
-                $dtUpload->sampul = $namaFile;
+        $dtUpload = new Produk();
+        $dtUpload->namaproduk = $request->namaproduk;
+        $dtUpload->deskripsi = $request->deskripsi;
+        $dtUpload->berat = $request->berat;
+        $dtUpload->stok = $request->stok;
+        $dtUpload->harga = $request->harga;
+        $dtUpload->sampul = $namaFile;
 
-                $nm->move(public_path().'/img',$namaFile);
-                $dtUpload->save();
+        $nm->move(public_path() . '/img', $namaFile);
+        $dtUpload->save();
 
-                return redirect('dataproduk')->with('success','Data Pengalaman kerja baru telah berhasil disimpan');
-
+        return redirect('dataproduk')->with('success', 'Data Pengalaman kerja baru telah berhasil disimpan');
     }
 
     /**
@@ -74,7 +73,6 @@ class ProdukController extends Controller
      */
     public function show($id)
     {
-
     }
 
     /**
@@ -87,7 +85,6 @@ class ProdukController extends Controller
     {
         $prod = Produk::findorfail($id);
         return view('backend.produk.editproduk', compact('prod'));
-
     }
 
     /**
@@ -109,7 +106,7 @@ class ProdukController extends Controller
         $updateProduk->stok = $request->stok;
         $updateProduk->harga = $request->harga;
         $updateProduk->sampul = $namaFile;
-        $nm->move(public_path().'/img',$namaFile);
+        $nm->move(public_path() . '/img', $namaFile);
         $updateProduk->save();
 
         return redirect()->route('dataproduk')->with('success', 'Pengalaman Kerja Berhasil Diperbaharui');
@@ -124,9 +121,9 @@ class ProdukController extends Controller
     public function destroy($id)
     {
         $prod = Produk::findorfail($id);
-        $file = public_path('/img/').$prod->gambar;
+        $file = public_path('/img/') . $prod->gambar;
 
-        if (file_exists($file)){
+        if (file_exists($file)) {
             @unlink($file);
         }
 

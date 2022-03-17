@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
 use App\Models\Informasi;
+
 class InformasiController extends Controller
 {
     /**
@@ -13,19 +15,19 @@ class InformasiController extends Controller
     public function index()
     {
         $dtInformasi = Informasi::latest()->get();
-        return view('backend.informasi.informasi',compact('dtInformasi'));
+        return view('backend.informasi.informasi', compact('dtInformasi'));
     }
 
     public function artikelinformasi()
     {
         $dtInformasi = Informasi::latest()->get();
-        return view('frontend.layouts.informasi',compact('dtInformasi'));
+        return view('frontend.layouts.informasi', compact('dtInformasi'));
     }
 
     public function artikelhome()
     {
         $dtInformasi = Informasi::latest()->get();
-        return view('frontend.layouts.homepage',compact('dtInformasi'));
+        return view('frontend.layouts.homepage', compact('dtInformasi'));
     }
 
     public function detailinformasi($id)
@@ -52,18 +54,18 @@ class InformasiController extends Controller
     public function store(Request $request)
     {
         $nm = $request->gambar;
-        $namaFile = "http://127.0.0.1:8000/img/".$nm->getClientOriginalName();
+        $namaFile = "http://127.0.0.1:8000/img/" . $nm->getClientOriginalName();
 
-            $dtUpload = new informasi;
-            $dtUpload->judul = $request->judul;
-            $dtUpload->caption = $request->caption;
-            $dtUpload->konten = $request->konten;
-            $dtUpload->gambar = $namaFile;
+        $dtUpload = new informasi;
+        $dtUpload->judul = $request->judul;
+        $dtUpload->caption = $request->caption;
+        $dtUpload->konten = $request->konten;
+        $dtUpload->gambar = $namaFile;
 
-            $nm->move(public_path().'/img',$namaFile);
-            $dtUpload->save();
+        $nm->move(public_path() . '/img', $namaFile);
+        $dtUpload->save();
 
-            return redirect('informasis');
+        return redirect('informasis');
     }
 
     /**
@@ -101,14 +103,14 @@ class InformasiController extends Controller
         $ubah = Informasi::findorfail($id);
         $awal = $ubah->gambar;
 
-        $dt =[
+        $dt = [
             'judul' => $request['judul'],
             'caption' => $request['caption'],
             'konten' => $request['konten'],
             'gambar' => $awal,
         ];
 
-        $request->gambar->move(public_path().'/img', $awal);
+        $request->gambar->move(public_path() . '/img', $awal);
         $ubah->update($dt);
         return redirect('informasi');
     }
@@ -122,9 +124,9 @@ class InformasiController extends Controller
     public function destroy($id)
     {
         $inf = Informasi::findorfail($id);
-        $file = public_path('/img/').$inf->gambar;
+        $file = public_path('/img/') . $inf->gambar;
 
-        if (file_exists($file)){
+        if (file_exists($file)) {
             @unlink($file);
         }
 

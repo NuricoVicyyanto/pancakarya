@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Models\Pengguna;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,7 @@ class PenggunaController extends Controller
     public function index()
     {
         $dtPengguna = Pengguna::all();
-        return view('backend.pengguna.pengguna',compact('dtPengguna'));
+        return view('backend.pengguna.pengguna', compact('dtPengguna'));
     }
 
     // public function show()
@@ -48,7 +49,7 @@ class PenggunaController extends Controller
             'name' => $request->name,
             'username' => $request->username,
             'email' => $request->email,
-            'password'=> $request->password,
+            'password' => $request->password,
         ]);
         return redirect('pengguna');
     }

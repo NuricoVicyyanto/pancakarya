@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Daftar users</title>
 </head>
+
 <body>
     <h3>Daftar users</h3>
     <table border="1">
@@ -12,7 +14,7 @@
             <th width="200px">Name</th>
         </tr>
         @php
-            $no = 1;    
+        $no = 1;
         @endphp
         @foreach($users as $users)
         <tr>
@@ -23,4 +25,5 @@
         @endforeach
     </table>
 </body>
+
 </html>

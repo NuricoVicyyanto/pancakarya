@@ -15,7 +15,7 @@ class PegawaiController extends Controller
     public function index()
     {
         $dtPegawai = Pegawai::all();
-        return view('backend.Data-pegawai',compact('dtPegawai'));
+        return view('backend.Data-pegawai', compact('dtPegawai'));
     }
 
     /**

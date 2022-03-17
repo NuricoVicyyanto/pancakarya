@@ -6,11 +6,13 @@ use Illuminate\Http\Request;
 
 class BackendController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('backend.home');
     }
 
-    public function user(){
+    public function user()
+    {
         return view('backend.user');
     }
 }
