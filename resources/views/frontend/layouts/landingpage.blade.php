@@ -612,12 +612,6 @@
 			</footer>
 			<!--- END FOOTER -->
 		</div>
-		<!-- PAGE WRAPPER END-->
-
-
-
-
-
 		<!-- Latest jQuery -->
 		<script src=" {{ asset('assets/js/jquery-1.12.4.min.js') }}"></script>
 		<!-- Latest compiled and minified Bootstrap -->

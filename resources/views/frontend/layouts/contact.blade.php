@@ -20,9 +20,9 @@
           <input name="password" required type="text" id="Password" class="form-control" placeholder="Komentar">
         </div>
         <div class="form-group">
-          <button type="button" class="btn btn-dark shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">Kirim</button>
+          <button type="submit" class="btn btn-dark shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">Kirim</button>
           <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -38,7 +38,7 @@
               </div>
             </div>
           </div>
-          {{-- <button type="submit" class="btn btn-dark">Kirim</button> --}}
+          {{-- <button type="submit" class="btn btn-dark">Kirim</button> --}} -->
         </div>
       </form>
     </div>
