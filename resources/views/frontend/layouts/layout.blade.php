@@ -67,7 +67,7 @@
                         <div class="nav-right-part nav-right-part-desktop">
                             <ul>
                                 {{-- <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li> --}}
-                                <li class=""><a class="login-btn" href="/login"">Login</a></li>
+                                <li class=""><a class="login-btn" href="/">Logout</a></li>
                                 {{-- <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li> --}}
                             </ul>
                         </div>
@@ -95,7 +95,7 @@
                     <div class="atf-main-header-right">
                         <div class="atf-nav">
                             <ul class="atf-nav-list atf-onepage-nav">
-                                <li><a href="/" class="atf-smooth-move">Dashboard</a>
+                                <li><a href="/homepage" class="atf-smooth-move">Dashboard</a>
 
                                 </li>
                                 <li><a href="/produk" class="atf-smooth-move">Perumahan</a>
