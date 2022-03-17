@@ -224,7 +224,7 @@
 
 		<!-- START SERVICE SECTION  -->
 
-		<section id="service" class="atf-service-area atf-section-padding">
+		<section id="service" class="atf-service-area mt-5">
 			<h3>
 				<center> Keunggulan Kami </center>
 			</h3><br>
@@ -279,22 +279,33 @@
 
 
 		<!-- Special Offer Area -->
-		<div class="atf-special-offer atf-section-padding pb-0">
+		<div class="atf-special-offer atf-section-padding">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-7 col-lg-6 col-12 text-left">
 						<div class="atf-special-content atf-section-title  mx-auto my-auto">
-							<h4 class="mb-2">Get 30% Discount </h4>
-							<h2>Best Promo Offer For Your</h2>
-							<p class="pr-lg-5">Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem elementum Sed congue nisl dolorSed eget augue Pellentesque sollicitudin efficitur, mattis dui vitae, sollicitudin nisl. </p>
+							{{-- <h4 class="mb-2">Get 30% Discount </h4> --}}
+							<p class="pr-lg-5">Panca Karya Property menjalankan usahanya di bidang pemasaran property di daerah Jember baik secara primary maupun secondary dan telah bekerjasama dengan developer atau disebut pengembang properti maupun dengan pemilik-pemilik properti yang ingin menjual propertinya yang nantinya akan di bantu oleh Panca Karya Property untuk dipasarkan.</p>
 
+							<h2 class="mt-4" >Visi</h2>
+							<p class="pr-lg-5">Memberikan Kemudahan berinvetasi properti serta menjadi agen properti amanah dan terpercaya
+							</p>
+
+							<h2 class="mt-3">Misi</h2>
+							<p class="pr-lg-5">1. Menjadikan PANCA KARYA sebagai wadah terdepan dan sentral transaksi properti. <br>
+								2. Menjunjung tinggi nilai investasi dan kualitas produk, serta terwujudnya kemakmuran bagi nasabah. <br>
+								3. Memberikan pelayanan prima dan solusi terbaik untuk nasabah. <br>
+								4. Mewujudkan kepuasan nasabah dalam pelayanan kebutuhan properti. <br>
+								5. Mewujudkan kesejahteraan bagi tim dan mitra Panca Karya
+								</p>
+{{-- 
 							<h4 class="mt-5">Expire On</h4>
 							<div id="countdown" class="text-center"></div>
-							<div class="clearfix"></div>
+							<div class="clearfix"></div> --}}
 						</div>
-						<div class="atf-main-btn mt-5 pb-5 d-lg-block">
+						{{-- <div class="atf-main-btn mt-5 pb-5 d-lg-block">
 							<a href="https://www.templatemonster.com/website-templates/al-majid-website-template-152091.html?_gl=1*1ley0u6*_ga*NDMyOTM1NTcxLjE2MTAxOTczNjQ.*_ga_FTPYEGT5LY*MTYxMDI4NzgyNS4zLjAuMTYxMDI4NzgzMS41NA..&_ga=2.145900727.2005536284.1610210101-432935571.1610197364" class="page-scroll atf-themes-btn">Pro Version <i class="fa fa-angle-right"></i></a>
-						</div>
+						</div> --}}
 					</div>
 					<!--- END COL -->
 
