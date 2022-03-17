@@ -100,13 +100,13 @@
 
 																</li>
 
-																<li><a href="/produk" class="atf-smooth-move">Perumahan</a>
+																<li><a href="/login" class="atf-smooth-move">Perumahan</a>
 
 																</li>
-																<li><a href="#" class="atf-smooth-move">Konsultasi</a>
+																<li><a href="/login" class="atf-smooth-move">Konsultasi</a>
 
 																</li>
-																<li><a href="/contact" class="atf-smooth-move">Kontak</a>
+																<li><a href="/login" class="atf-smooth-move">Kontak</a>
 
 																</li>
 															</ul>
@@ -569,14 +569,14 @@
 							<!--- END COL -->
 
 							<div class="col-lg-2 col-md-6 col-12 atf-footer-link wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
-								<a href="/produk"><i class=""></i>
+								<a href="/login"><i class=""></i>
 									<h5>Perumahan</h5>
 								</a>
 							</div>
 							<!--- END COL -->
 
 							<div class="col-lg-4 col-md-6 col-12 atf-footer-link text-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0">
-								<a href="/contact"><i class=""></i>
+								<a href="/logint"><i class=""></i>
 									<h5>Kontak</h5>
 								</a>
 								<div class="atf-footer-con">
