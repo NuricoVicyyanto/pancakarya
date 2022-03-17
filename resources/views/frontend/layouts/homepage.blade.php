@@ -288,10 +288,20 @@
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
                             </div>
+
                         </div>
+                        
                     </div><!-- .slick-slide-in -->
+                    
                 </div><!-- .slick-slide-Wrapper -->
+                <div class="row">
+                    <div class="atf-main-btn atf-blog-btn col-lg 12 d-flex justify-content-end">
+                            <a href="/produk" class="btn atf-themes-btn">Selengkapnya <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+            
+                    </div>
+                </div>
             </div>
+            
         </div>
     </div>
 </div>

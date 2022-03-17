@@ -90,7 +90,10 @@
                         </div>
 
                         <div class="nav-right-part nav-right-part-mobile">
-                            <ul>
+                            <ul>  
+                                <li>
+                                                                         
+                                </li>                          
                                 {{-- <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li> --}}
                                 <li class=""><a class="login-btn" href="/login">Login</a></li>
                                 {{-- <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li> --}}
@@ -100,6 +103,9 @@
                         <div class="atf-main-header-right">
                             <div class="atf-nav">
                                 <ul class="atf-nav-list atf-onepage-nav">
+                                    
+
+
                                     <li><a href="/homepage" class="atf-smooth-move">Dashboard</a>
 
                                     </li>
@@ -131,9 +137,9 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-7 col-md-6 col-12">
                             <div class="atf-page-heading-in text-center">
-                                <h1 class="atf-page-heading-title">Blog Grid Ful Width</h1>
+                                <h1 class="atf-page-heading-title">Panca Karya</h1>
                                 <div class="atf-post-label">
-                                    <span><a href="index1.html">Home</a></span>
+                                    <span><a href="index1.html">Selamat Datang  {{ auth()->user()->name }} </a></span>
                                     {{-- <span>Blog</span> --}}
                                 </div>
                             </div>

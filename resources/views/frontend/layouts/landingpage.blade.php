@@ -528,17 +528,8 @@
 				{{-- Teruskan Ke Produk --}}
 				<div class="row">
 					<div class="atf-main-btn atf-blog-btn col-lg 12 d-flex justify-content-end">
-						<?php
-						if (isset($_SESSION['username'])) {
-						?>
-							<a href="#" class="btn atf-themes-btn">Selengkapnya <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-						<?php
-						} else {
-						?>
-							<a href="#" class="btn atf-themes-btn disabled">Selengkapnya <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+							<a href="/login" class="btn atf-themes-btn">Selengkapnya <i class="fa fa-angle-right atf-blogs-btn"></i></a>
 
-						<?php }
-						?>
 					</div>
 				</div>
 			</div><br><br><!-- .container -->
