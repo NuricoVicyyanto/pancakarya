@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
 use App\Models\Dokumentasi;
 
@@ -14,13 +15,13 @@ class DokumentasiController extends Controller
     public function index()
     {
         $dtDokumentasi = Dokumentasi::latest()->get();
-        return view('backend.dokumentasi.dokumentasi',compact('dtDokumentasi'));
+        return view('backend.dokumentasi.dokumentasi', compact('dtDokumentasi'));
     }
 
     public function artikeldokumentasi()
     {
         $dtDokumentasi = Dokumentasi::latest()->get();
-        return view('frontend.layouts.dokumentasi',compact('dtDokumentasi'));
+        return view('frontend.layouts.dokumentasi', compact('dtDokumentasi'));
     }
 
     public function detaildokumentasi($id)
@@ -53,19 +54,18 @@ class DokumentasiController extends Controller
         // $destinationPath= public_path("/img");
         // $namaFile = $destinationPath .$nm->getClientOriginalName();
         $nm = $request->gambar;
-        $namaFile = "http://127.0.0.1:8000/img/".$nm->getClientOriginalName();
+        $namaFile = "http://127.0.0.1:8000/img/" . $nm->getClientOriginalName();
 
-            $dtUpload = new dokumentasi;
-            $dtUpload->judul = $request->judul;
-            $dtUpload->caption = $request->caption;
-            $dtUpload->konten = $request->konten;
-            $dtUpload->gambar =$namaFile;
+        $dtUpload = new dokumentasi;
+        $dtUpload->judul = $request->judul;
+        $dtUpload->caption = $request->caption;
+        $dtUpload->konten = $request->konten;
+        $dtUpload->gambar = $namaFile;
 
-            $nm->move(public_path().'/img',$namaFile);
-            $dtUpload->save();
+        $nm->move(public_path() . '/img', $namaFile);
+        $dtUpload->save();
 
-            return redirect('dokumentasi');
-
+        return redirect('dokumentasi');
     }
 
     /**
@@ -76,7 +76,6 @@ class DokumentasiController extends Controller
      */
     public function show($id)
     {
-        
     }
 
     /**
@@ -103,14 +102,14 @@ class DokumentasiController extends Controller
         $ubah = Dokumentasi::findorfail($id);
         $awal = $ubah->gambar;
 
-        $dt =[
+        $dt = [
             'judul' => $request['judul'],
             'caption' => $request['caption'],
             'konten' => $request['konten'],
             'gambar' => $awal,
         ];
 
-        $request->gambar->move(public_path().'/img', $awal);
+        $request->gambar->move(public_path() . '/img', $awal);
         $ubah->update($dt);
         return redirect('dokumentasi');
     }
@@ -124,9 +123,9 @@ class DokumentasiController extends Controller
     public function destroy($id)
     {
         $dok = Dokumentasi::findorfail($id);
-        $file = public_path('/img/').$dok->gambar;
+        $file = public_path('/img/') . $dok->gambar;
 
-        if (file_exists($file)){
+        if (file_exists($file)) {
             @unlink($file);
         }
 

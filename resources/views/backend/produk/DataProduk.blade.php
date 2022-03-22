@@ -3,9 +3,8 @@
 <div class="container-fluid">
 
 
-  <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-  <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-    For more information about DataTables, please visit the <a target="_blank" href="https://datatables.net">official DataTables documentation</a>.</p>
+  <h1 class="h3 mb-2 text-gray-800">Daftar Produk</h1>
+  <p class="mb-4">Form daftar produk atau katalog merupakan daftar perumahan yang kamu jual yang dilengkapi informasi mulai dari harga, lokasi serta bonus dalam pembelian. <a target="_blank" href="https://datatables.net">official DataTables documentation</a>.</p>
   <!-- /.content-header -->
 
   <!-- Main content -->

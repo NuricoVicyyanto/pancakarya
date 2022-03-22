@@ -1,171 +1,321 @@
 @extends('frontend.layouts.layout')
 @section('content')
-<br><br>
-    <!--content--> 
-<div class="container">
-    <section class="banner_main">
-               <div class="container-fluid">
-                  <div class="row d_flex">
-                     <div class="col-md-5">
-                        <div class="text-bg">
-                           <h1><font color="green">UNDUH APLIKASI</font></h1>
-                           <p>dengan menggunakan aplikasi ini kita dapat mempermudah menperoleh informasi seputar pertanian 
-                        , membeli berbagai produk kami dimana saja dan kapan saja.</p>
-                        <div><button type="button" class="btn btn-success shadow">Get App</button></div>
-                        </div>
-                     </div>
-                     <div class="col-lg-6 order-1 order-lg-2 hero-img">
-                    <img src="{{asset('assets/img/background.png')}}" class="img-fluid" >
-                </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-        </div>
-         </div>
-      </header>
-      <br><br><br><br><br>
+		<!-- START SERVICE SECTION  -->
 
-        <div class="judul-card bg-light">
-            <h1 class="display-4">Keunggulan</h1>
-            <hr>
-            <div id="service" class="three_box">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="Soft-box">
-                     <i><img src="{{asset('assets/img/belanja.png')}}"  /></i>
-                     <h3>Belanja</h3>
-                     <p>Kami mempermudah proses belanja kebutuhan anda, terumama dalam mencari bahan sayuran segar dan organik</p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="Soft-box">
-                     <i><img src="{{asset('assets/img/transaksi.png')}}" /></i>
-                     <h3>Pembayaran</h3>
-                     <p>Kami menyediakan opsi pembayaran ditempat dan juga opsi pembayaran dengan cara mengirim bukti transaksi</p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="Soft-box">
-                     <i><img src="{{asset('assets/img/pengiriman.png')}}" /></i>
-                     <h3>Pengiriman</h3>
-                     <p>Kami menyediakan opsi pengiriman barang sampai di tempat(<i>dengan pengecualian</i>) dan juga langsung datang ke gerai kami</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-    <br><br><br>
-    <div class="judul-card bg-light">
-        <h1 class="display-4">Informasi</h1>
-        <hr>
-    
+		<section id="service" class="atf-service-area mt-5">
+			<h3>
+				<center> Keunggulan Kami </center>
+			</h3><br>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-6">
+						<div class="atf-single-service-wrap text-center">
+							<div class="atf-single-service-wrap">
+								<div class="atf-services-icon text-center mb-4">
+									<i class="fas fa-shipping-fast"></i>
+								</div>
+								<div class="atf-service-content">
+									<h3>Pelayanan 24 Jam</h3>
+									<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="atf-single-service-wrap text-center">
+							<div class="atf-single-service-wrap">
+								<div class="atf-services-icon text-center mb-4">
+									<i class="fas fa-envelope-open-text"></i>
+								</div>
+								<div class="atf-service-content">
+									<h3>Siap Survey Kapan Saja</h3>
+									<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="atf-single-service-wrap text-center">
+							<div class="atf-single-service-wrap">
+								<div class="atf-services-icon text-center mb-4">
+									<i class="fas fa-money-bill-alt"></i>
+								</div>
+								<div class="atf-service-content">
+									<h3>Mudah Saat Transaksi</h3>
+									<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Service-Area End-->
+
+
+
+		<!-- Special Offer Area -->
+		<div class="atf-special-offer atf-section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-7 col-lg-6 col-12 text-left">
+						<div class="atf-special-content atf-section-title  mx-auto my-auto">
+							{{-- <h4 class="mb-2">Get 30% Discount </h4> --}}
+							<p class="pr-lg-5 text-justify">Panca Karya Property menjalankan usahanya di bidang pemasaran property di daerah Jember baik secara primary maupun secondary dan telah bekerjasama dengan developer atau disebut pengembang properti maupun dengan pemilik-pemilik properti yang ingin menjual propertinya yang nantinya akan di bantu oleh Panca Karya Property untuk dipasarkan.</p>
+
+							<h2 class="mt-4" >Visi</h2>
+							<p class="pr-lg-5 text-justify">Memberikan Kemudahan berinvetasi properti serta menjadi agen properti amanah dan terpercaya
+							</p>
+
+							<h2 class="mt-3">Misi</h2>
+							<p class="pr-lg-5 text-justify">1. Menjadikan PANCA KARYA sebagai wadah terdepan dan sentral transaksi properti. <br>
+								2. Menjunjung tinggi nilai investasi dan kualitas produk, serta terwujudnya kemakmuran bagi nasabah. <br>
+								3. Memberikan pelayanan prima dan solusi terbaik untuk nasabah. <br>
+								4. Mewujudkan kepuasan nasabah dalam pelayanan kebutuhan properti. <br>
+								5. Mewujudkan kesejahteraan bagi tim dan mitra Panca Karya
+								</p>
+{{-- 
+							<h4 class="mt-5">Expire On</h4>
+							<div id="countdown" class="text-center"></div>
+							<div class="clearfix"></div> --}}
+						</div>
+						{{-- <div class="atf-main-btn mt-5 pb-5 d-lg-block">
+							<a href="https://www.templatemonster.com/website-templates/al-majid-website-template-152091.html?_gl=1*1ley0u6*_ga*NDMyOTM1NTcxLjE2MTAxOTczNjQ.*_ga_FTPYEGT5LY*MTYxMDI4NzgyNS4zLjAuMTYxMDI4NzgzMS41NA..&_ga=2.145900727.2005536284.1610210101-432935571.1610197364" class="page-scroll atf-themes-btn">Pro Version <i class="fa fa-angle-right"></i></a>
+						</div> --}}
+					</div>
+					<!--- END COL -->
+
+					<div class="col-xl-5 col-lg-6 col-12">
+						<div class="atf-special-img text-center  mx-auto my-auto">
+							<div class="atf-single-special-img">
+								<img src="assets/img/special.png" width="370" alt="Offer Image" class="img-fluid">
+							</div>
+						</div>
+					</div>
+					<!--- END COL -->
+				</div>
+				<!--- END ROW -->
+			</div>
+			<!--- END CONTAINER -->
+		</div> <!-- End Special Offer Area -->
+
+
+
+<div class="atf-section-padding atf-blog-area atf-blog-grid-area">
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-3">
-            @foreach ($dtInformasi as $item)
-            <div class="col mb-4">
-                <div class="card shadow p-3 mb-5 bg-white rounded">
-                    <img src="{{ asset($item->gambar)}}" class="img-thumbnail" alt="responsive image">
-                    <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <h5><b>{{ $item->judul }}</b></h5>
-                        <p>{{ $item->caption}}</p>
-                        <a href="{{ url('detailinformasi', $item->id) }}" type="button" class="btn btn-outline-success"><b><i>Baca</i></b></a>
+        <div class="atf-slider atf-style2">
+            <div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-lg-slides="3" data-add-slides="3">
+                <div class="slick-wrapper">
+                    <div class="slick-slide-in">
+                        <div class="atf-post-slide">
+                            <div class="atf-post-pic">
+                                <img src="../assets/img/blog/3.jpg" alt="">
+                                <ul class="atf-post-category">
+                                    <li><a href="#">29 Dec,</a></li>
+                                    <li><a href="#">2020</a></li>
+                                </ul>
+                            </div>
+                            <div class="atf-post-header">
+                                <ul class="atf-post-bar">
+                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                </ul>
+                                <h4 class="atf-post-title">
+                                    <a href="#">Best Laptop Discount 30%..</a>
+                                </h4>
+                            </div>
+                            <p class="atf-post-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                            </p>
+                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- .slick-slide-in -->
+
+                    <div class="slick-slide-in">
+                        <div class="atf-post-slide">
+                            <div class="atf-post-pic">
+                                <img src="../assets/img/blog/3.jpg" alt="">
+                                <ul class="atf-post-category">
+                                    <li><a href="#">29 Dec,</a></li>
+                                    <li><a href="#">2020</a></li>
+                                </ul>
+                            </div>
+                            <div class="atf-post-header">
+                                <ul class="atf-post-bar">
+                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                </ul>
+                                <h4 class="atf-post-title">
+                                    <a href="#">Best Laptop Discount 30%..</a>
+                                </h4>
+                            </div>
+                            <p class="atf-post-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                            </p>
+                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- .slick-slide-in -->
+
+                    <div class="slick-slide-in">
+                        <div class="atf-post-slide">
+                            <div class="atf-post-pic">
+                                <img src="../assets/img/blog/3.jpg" alt="">
+                                <ul class="atf-post-category">
+                                    <li><a href="#">29 Dec,</a></li>
+                                    <li><a href="#">2020</a></li>
+                                </ul>
+                            </div>
+                            <div class="atf-post-header">
+                                <ul class="atf-post-bar">
+                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                </ul>
+                                <h4 class="atf-post-title">
+                                    <a href="#">Best Laptop Discount 30%..</a>
+                                </h4>
+                            </div>
+                            <p class="atf-post-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                            </p>
+                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- .slick-slide-in -->
+
+                    <div class="slick-slide-in">
+                        <div class="atf-post-slide">
+                            <div class="atf-post-pic">
+                                <img src="../assets/img/blog/3.jpg" alt="">
+                                <ul class="atf-post-category">
+                                    <li><a href="#">29 Dec,</a></li>
+                                    <li><a href="#">2020</a></li>
+                                </ul>
+                            </div>
+                            <div class="atf-post-header">
+                                <ul class="atf-post-bar">
+                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                </ul>
+                                <h4 class="atf-post-title">
+                                    <a href="#">Best Laptop Discount 30%..</a>
+                                </h4>
+                            </div>
+                            <p class="atf-post-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                            </p>
+                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- .slick-slide-in -->
+
+                    <div class="slick-slide-in">
+                        <div class="atf-post-slide">
+                            <div class="atf-post-pic">
+                                <img src="../assets/img/blog/3.jpg" alt="">
+                                <ul class="atf-post-category">
+                                    <li><a href="#">29 Dec,</a></li>
+                                    <li><a href="#">2020</a></li>
+                                </ul>
+                            </div>
+                            <div class="atf-post-header">
+                                <ul class="atf-post-bar">
+                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                </ul>
+                                <h4 class="atf-post-title">
+                                    <a href="#">Best Laptop Discount 30%..</a>
+                                </h4>
+                            </div>
+                            <p class="atf-post-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                            </p>
+                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- .slick-slide-in -->
+
+                    <div class="slick-slide-in">
+                        <div class="atf-post-slide">
+                            <div class="atf-post-pic">
+                                <img src="../assets/img/blog/3.jpg" alt="">
+                                <ul class="atf-post-category">
+                                    <li><a href="#">29 Dec,</a></li>
+                                    <li><a href="#">2020</a></li>
+                                </ul>
+                            </div>
+                            <div class="atf-post-header">
+                                <ul class="atf-post-bar">
+                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                </ul>
+                                <h4 class="atf-post-title">
+                                    <a href="#">Best Laptop Discount 30%..</a>
+                                </h4>
+                            </div>
+                            <p class="atf-post-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                            </p>
+                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- .slick-slide-in -->
+
+                    <div class="slick-slide-in">
+                        <div class="atf-post-slide">
+                            <div class="atf-post-pic">
+                                <img src="../assets/img/blog/3.jpg" alt="">
+                                <ul class="atf-post-category">
+                                    <li><a href="#">29 Dec,</a></li>
+                                    <li><a href="#">2020</a></li>
+                                </ul>
+                            </div>
+                            <div class="atf-post-header">
+                                <ul class="atf-post-bar">
+                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                </ul>
+                                <h4 class="atf-post-title">
+                                    <a href="#">Best Laptop Discount 30%..</a>
+                                </h4>
+                            </div>
+                            <p class="atf-post-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                            </p>
+                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                            </div>
+
+                        </div>
+                        
+                    </div><!-- .slick-slide-in -->
+                    
+                </div><!-- .slick-slide-Wrapper -->
+                <div class="row">
+                    <div class="atf-main-btn atf-blog-btn col-lg 12 d-flex justify-content-end">
+                            <a href="/produk" class="btn atf-themes-btn">Selengkapnya <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+            
                     </div>
                 </div>
             </div>
-            @endforeach
+            
         </div>
     </div>
-
-
-      <div class="best-features about-features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-            <h1 class="display-4">About Me</h1>
-            <hr>
-            </div>
-            <br>
-
-          </div>
-          <div class="col-md-6">
-            <div class="right-image">
-              <img src="{{asset('assets/img/sayur 2.jpg')}}" alt="">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div>
-              <p style="text-align:center"> Aplikasi ini adalah aplikasi informasi pertanian, dan penjualan produk pertanian.<br>
-              <br>Yang memiliki keunggulan yaitu memiliki harga yang lebih miring dari pada yang lainnya,
-              sayuran kami dijamin fresh karena bekerja sama langsung dengan SMK Pertanian Pembangunan 
-              Negeri 1 Tegalampel Bondowoso, Pelanggan hanya perlu santai dirumah pesanan akan kami antar</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-    <br><br>
-
-        <div class="container">
-            <div class="judul-card">
-                <h1 class="display-4">Dokumentasi</h1>
-                <hr>
-            </div>
-
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="{{asset('assets/img/cover.jpeg')}}" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Pertanian</h5>
-                            <p>Menyajikan hal-hal seputar pertanian.</p>
-                        </div>
-                    </div>
-                    {{-- <div class="carousel-item">
-                        <img src="im{{asset('assets/img/cov.jpeg')}}g/sawi.jpeg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{asset('assets/img/cov1.jpeg')}}" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </div>
-                    </div> --}}
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-            <div class="konten">
-                <h4><b>VISI</b></h4>
-                <p class="text-xl-left text-justify">Menjadi aplikasi pertanian yang dapat menjual produk hasil
-                    pertanian
-                    SMK PP N 1 Tegalampel Bondowoso,
-                    dan diharapkan dapat membantu perekonomian para petani lokal disekitar dalam memasarkan produk ke
-                    jangkauan pasar yang sangat luas</p>
-                <h4><b>MISI</b></h4>
-                <p class="text-xl-left text-justify">Dalam rangka mewujudkan visi yang kami terapkan, semoga dapat
-                    memasarkan produk ke jangkauan yang lebih luas,
-                    mendorong perekonomian dan membangun kerjasama terhadap pertanian lokal </p>
-            </div>
-        </div>
+</div>
 @stop
