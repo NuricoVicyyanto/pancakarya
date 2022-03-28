@@ -77,6 +77,13 @@
           <h4 class="atf-post-title">
             <a href="#">Best Laptop Discount 30%..</a>
           </h4>
+          <div class="atf-post-header">
+          <ul class="atf-post-bar">
+                <li><i class="fa fa-chart-area"></i> 60 m2</li>
+                <li><i class="fa fa-bed"></i> 2</li>
+                <li><i class="fa fa-shower"></i> 1</li>
+            </ul>
+        </div>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <div class="atf-main-btn atf-blog-btn mt-2">
             <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>
