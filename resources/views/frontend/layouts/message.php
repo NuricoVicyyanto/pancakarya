@@ -17,7 +17,7 @@ if(mysqli_num_rows($run_query) > 0){
     $replay = $fetch_data['replies'];
     echo $replay;
 }else{
-    echo "Sorry can't be able to understand you!";
+    echo "Mohon Tunggu Balasan Admin Kami";
 }
 
 ?>
