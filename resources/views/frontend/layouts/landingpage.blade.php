@@ -555,7 +555,7 @@
 								<div class="atf-footer-box">
 									<h5><a href=""><img class="atf-footer-logo" src="assets/img/logowhite.png" alt="" /></a></h5><br>
 									<ul class="pr-lg-5">
-										<li>Jl. SAWO 2 NO 5 PATRANG, JEMBER</li>
+										<li>Jl. Sawo 2 No 5 Patrang, Jember </li>
 										<li>+62 812-3124-2823</li>
 										<li>pancakaryapro@gmail.com</li>
 									</ul>

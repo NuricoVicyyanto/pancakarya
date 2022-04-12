@@ -90,10 +90,10 @@
                         </div>
 
                         <div class="nav-right-part nav-right-part-mobile">
-                            <ul>  
+                            <ul>
                                 <li>
-                                                                         
-                                </li>                          
+
+                                </li>
                                 {{-- <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li> --}}
                                 <li class=""><a class="login-btn" href="/login">Login</a></li>
                                 {{-- <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li> --}}
@@ -103,7 +103,7 @@
                         <div class="atf-main-header-right">
                             <div class="atf-nav">
                                 <ul class="atf-nav-list atf-onepage-nav">
-                                    
+
 
 
                                     <li><a href="/homepage" class="atf-smooth-move">Dashboard</a>
@@ -160,7 +160,7 @@
                                 <div class="atf-footer-box">
                                     <h5><a href=""><img class="atf-footer-logo" src="assets/img/logowhite.png" alt="" /></a></h5><br>
                                     <ul class="pr-lg-5">
-                                        <li>Jl. Melon II Blok C - 2</li>
+                                        <li>Jl. Sawo 2 No 5 Patrang, Jember</li>
                                         <li>+62 812-3124-2823</li>
                                         <li>pancakaryapro@gmail.com</li>
                                     </ul>
