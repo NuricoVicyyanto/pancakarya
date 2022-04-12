@@ -238,7 +238,7 @@
 								</div>
 								<div class="atf-service-content">
 									<h3>Pelayanan 24 Jam</h3>
-									<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+									<p>Kami akan fast respon dalam menjawab pertanyaan kebutuhan pelanggan baik melalui chat atau telpn.</p>
 								</div>
 							</div>
 						</div>
@@ -252,7 +252,7 @@
 								</div>
 								<div class="atf-service-content">
 									<h3>Siap Survey Kapan Saja</h3>
-									<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+									<p>Kami menyesuaikan waktu pelanggan dalam pemilihan rumahnya</p>
 								</div>
 							</div>
 						</div>
@@ -266,7 +266,7 @@
 								</div>
 								<div class="atf-service-content">
 									<h3>Mudah Saat Transaksi</h3>
-									<p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+									<p>Data dan berkas pelanggan lengkap dan sesuai persyaratan proses akan cepat</p>
 								</div>
 							</div>
 						</div>
@@ -298,7 +298,7 @@
 								4. Mewujudkan kepuasan nasabah dalam pelayanan kebutuhan properti. <br>
 								5. Mewujudkan kesejahteraan bagi tim dan mitra Panca Karya
 								</p>
-{{-- 
+{{--
 							<h4 class="mt-5">Expire On</h4>
 							<div id="countdown" class="text-center"></div>
 							<div class="clearfix"></div> --}}
@@ -333,7 +333,7 @@
 							<div class="slick-slide-in">
 								<div class="atf-post-slide">
 									<div class="atf-post-pic">
-										<img src="../assets/img/blog/3.jpg" alt="">
+										<img src="../assets/img/blog/2.jpeg" alt="">
 										<ul class="atf-post-category">
 											<li><a href="#">29 Dec,</a></li>
 											<li><a href="#">2020</a></li>
@@ -361,7 +361,7 @@
 							<div class="slick-slide-in">
 								<div class="atf-post-slide">
 									<div class="atf-post-pic">
-										<img src="../assets/img/blog/3.jpg" alt="">
+										<img src="../assets/img/blog/2.jpeg" alt="">
 										<ul class="atf-post-category">
 											<li><a href="#">29 Dec,</a></li>
 											<li><a href="#">2020</a></li>
@@ -389,7 +389,7 @@
 							<div class="slick-slide-in">
 								<div class="atf-post-slide">
 									<div class="atf-post-pic">
-										<img src="../assets/img/blog/3.jpg" alt="">
+										<img src="../assets/img/blog/2.jpeg" alt="">
 										<ul class="atf-post-category">
 											<li><a href="#">29 Dec,</a></li>
 											<li><a href="#">2020</a></li>
@@ -417,7 +417,7 @@
 							<div class="slick-slide-in">
 								<div class="atf-post-slide">
 									<div class="atf-post-pic">
-										<img src="../assets/img/blog/3.jpg" alt="">
+										<img src="../assets/img/blog/2.jpeg" alt="">
 										<ul class="atf-post-category">
 											<li><a href="#">29 Dec,</a></li>
 											<li><a href="#">2020</a></li>
@@ -445,7 +445,7 @@
 							<div class="slick-slide-in">
 								<div class="atf-post-slide">
 									<div class="atf-post-pic">
-										<img src="../assets/img/blog/3.jpg" alt="">
+										<img src="../assets/img/blog/2.jpeg" alt="">
 										<ul class="atf-post-category">
 											<li><a href="#">29 Dec,</a></li>
 											<li><a href="#">2020</a></li>
@@ -473,7 +473,7 @@
 							<div class="slick-slide-in">
 								<div class="atf-post-slide">
 									<div class="atf-post-pic">
-										<img src="../assets/img/blog/3.jpg" alt="">
+										<img src="../assets/img/blog/2.jpeg" alt="">
 										<ul class="atf-post-category">
 											<li><a href="#">29 Dec,</a></li>
 											<li><a href="#">2020</a></li>
@@ -501,7 +501,7 @@
 							<div class="slick-slide-in">
 								<div class="atf-post-slide">
 									<div class="atf-post-pic">
-										<img src="../assets/img/blog/3.jpg" alt="">
+										<img src="../assets/img/blog/2.jpeg" alt="">
 										<ul class="atf-post-category">
 											<li><a href="#">29 Dec,</a></li>
 											<li><a href="#">2020</a></li>
@@ -555,7 +555,7 @@
 								<div class="atf-footer-box">
 									<h5><a href=""><img class="atf-footer-logo" src="assets/img/logowhite.png" alt="" /></a></h5><br>
 									<ul class="pr-lg-5">
-										<li>Jl. Melon II Blok C - 2</li>
+										<li>Jl. SAWO 2 NO 5 PATRANG, JEMBER</li>
 										<li>+62 812-3124-2823</li>
 										<li>pancakaryapro@gmail.com</li>
 									</ul>
