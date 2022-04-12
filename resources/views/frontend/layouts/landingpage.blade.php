@@ -238,7 +238,7 @@
 								</div>
 								<div class="atf-service-content">
 									<h3>Pelayanan 24 Jam</h3>
-									<p>Kami akan fast respon dalam menjawab pertanyaan kebutuhan pelanggan baik melalui chat atau telpn.</p>
+									<p>Bersedia memberi solusi tentang kebutuhan pelanggan baik melalui chat atau telpn</p>
 								</div>
 							</div>
 						</div>
