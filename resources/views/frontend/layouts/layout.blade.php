@@ -112,9 +112,6 @@
                                     <li><a href="/produk" class="atf-smooth-move">Perumahan</a>
 
                                     </li>
-                                    <li><a href="#" class="atf-smooth-move">Konsultasi</a>
-
-                                    </li>
                                     <li><a href="/contact" class="atf-smooth-move">Kontak</a>
 
                                     </li>

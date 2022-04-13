@@ -103,9 +103,6 @@
 																<li><a href="/login" class="atf-smooth-move">Perumahan</a>
 
 																</li>
-																<li><a href="/login" class="atf-smooth-move">Konsultasi</a>
-
-																</li>
 																<li><a href="/login" class="atf-smooth-move">Kontak</a>
 
 																</li>
