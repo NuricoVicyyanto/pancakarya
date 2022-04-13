@@ -73,7 +73,7 @@
   @foreach ($dtProduk as $item)
     <div class="col-md-4">
       <div class="card" style="width: 20rem; margin: 40px;">
-        <img src="{{ asset($item->sampul)}}" class="img-thumbnail" alt="responsive image" alt="">
+        <img src="{{ asset($item->sampul)}}" class="img-thumbnail" alt="image" alt="">
         <div class="card-body">
           <h4 class="atf-post-title">
             <a href="#">{{ $item->namaproduk}}</a>
