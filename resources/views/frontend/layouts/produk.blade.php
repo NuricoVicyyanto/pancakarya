@@ -70,135 +70,44 @@
 
 <div class="container">
   <div class="row">
+  @foreach ($dtProduk as $item)
     <div class="col-md-4">
       <div class="card" style="width: 20rem; margin: 40px;">
-        <img src="../assets/img/blog/2.jpeg" alt="">
+        <img src="{{ asset($item->sampul)}}" class="img-thumbnail" alt="responsive image" alt="">
         <div class="card-body">
           <h4 class="atf-post-title">
-            <a href="#">Best Laptop Discount 30%..</a>
+            <a href="#">{{ $item->namaproduk}}</a>
           </h4>
           <div class="row">
             <div class="col">
               <span>
-                <i class="fa fa-chart-area"></i>  60m<sup>2</sup>
+                <i class="fa fa-chart-area"></i> {{ $item->berat}}<sup>2</sup>
               </span>
             </div>
             <div class="col">
               <span>
-                <i class="fa fa-bed"></i>  2
+                <i class="fa fa-bed"></i> 2
               </span>
             </div>
             <div class="col">
               <span>
-                <i class="fa fa-shower"></i>  1
+                <i class="fa fa-shower"></i> 1
               </span>
             </div>
           </div>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">{{ $item->deskripsi}}</p>
           <div class="atf-main-btn atf-blog-btn mt-2">
-            <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>
+            <a href="{{ url('detailproduk', $item->id) }}" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-        <div class="card" style="width: 20rem; margin: 40px;">
-          <img src="../assets/img/blog/2.jpeg" alt="">
-          <div class="card-body">
-            <h4 class="atf-post-title">
-              <a href="#">Best Laptop Discount 30%..</a>
-            </h4>
-            <div class="row">
-              <div class="col">
-                <span>
-                  <i class="fa fa-chart-area"></i>  60m<sup>2</sup>
-                </span>
-              </div>
-              <div class="col">
-                <span>
-                  <i class="fa fa-bed"></i>  2
-                </span>
-              </div>
-              <div class="col">
-                <span>
-                  <i class="fa fa-shower"></i>  1
-                </span>
-              </div>
-            </div>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="atf-main-btn atf-blog-btn mt-2">
-              <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card" style="width: 20rem; margin: 40px;">
-          <img src="../assets/img/blog/2.jpeg" alt="">
-          <div class="card-body">
-            <h4 class="atf-post-title">
-              <a href="#">Best Laptop Discount 30%..</a>
-            </h4>
-            <div class="row">
-              <div class="col">
-                <span>
-                  <i class="fa fa-chart-area"></i>  60m<sup>2</sup>
-                </span>
-              </div>
-              <div class="col">
-                <span>
-                  <i class="fa fa-bed"></i>  2
-                </span>
-              </div>
-              <div class="col">
-                <span>
-                  <i class="fa fa-shower"></i>  1
-                </span>
-              </div>
-            </div>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="atf-main-btn atf-blog-btn mt-2">
-              <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card" style="width: 20rem; margin: 40px;">
-          <img src="../assets/img/blog/2.jpeg" alt="">
-          <div class="card-body">
-            <h4 class="atf-post-title">
-              <a href="#">Best Laptop Discount 30%..</a>
-            </h4>
-            <div class="row">
-              <div class="col">
-                <span>
-                  <i class="fa fa-chart-area"></i>  60m<sup>2</sup>
-                </span>
-              </div>
-              <div class="col">
-                <span>
-                  <i class="fa fa-bed"></i>  2
-                </span>
-              </div>
-              <div class="col">
-                <span>
-                  <i class="fa fa-shower"></i>  1
-                </span>
-              </div>
-            </div>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="atf-main-btn atf-blog-btn mt-2">
-              <a href="#" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+    @endforeach
   </div>
 </div>
 
 
-<div class="container">
+<!-- <div class="container">
   <div class="row row-cols-1 row-cols-md-3">
     @foreach ($dtProduk as $item)
     <div class="col mb-4">
@@ -216,7 +125,7 @@
       </div>
     </div>
     @endforeach
-  </div>
+  </div> -->
 </div>
 </div>
 @stop

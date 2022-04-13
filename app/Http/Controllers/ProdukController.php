@@ -20,7 +20,7 @@ class ProdukController extends Controller
 
     public function produk()
     {
-        $dtProduk = Produk::latest()->get();
+        $dtProduk = Produk::all();
         return view('frontend.layouts.produk', compact('dtProduk'));
     }
 

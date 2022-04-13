@@ -23,7 +23,7 @@
                 <th>Nama Produk</th>
                 <th>Sampul</th>
                 <th>Deskripsi</th>
-                <th>Berat</th>
+                <th>Luas</th>
                 <th>Stok</th>
                 <th>Harga</th>
                 <th>Aksi</th>
