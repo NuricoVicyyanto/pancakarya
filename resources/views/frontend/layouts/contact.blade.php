@@ -58,6 +58,7 @@
               <i class="fa fa-phone"></i>
               <h4>Mobile Number</h4>
               <p>+62 812-3124-2823</p>
+              <p><a href="https://wa.me/6281231242823?text=Hai admin saya {{ auth()->user()->name }}, disini saya memiliki beberapa masalah bisakah anda membantu kami?">Chat Via WhatsApp</a></p>
             </div>
             <div class="atf-contact-details">
               <i class="fa fa-envelope"></i>
