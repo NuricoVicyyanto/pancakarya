@@ -26,7 +26,7 @@
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="required" readonly value="{{ auth()->user()->name }}">
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="email" name="username" class="form-control" id="username" placeholder="Your Email" required="required">
+                  <input type="email" name="username" class="form-control" id="username" placeholder="Alamat" required="required">
                 </div>
                 <div class="form-group col-md-12">
                   <input type="text" name="email" class="form-control" id="email" placeholder="Your Subject" required="required" readonly value="{{ auth()->user()->email }}">
