@@ -106,13 +106,13 @@
 
 
 
-                                    <li><a href="/homepage" class="atf-smooth-move">Dashboard</a>
+                                    <li><a href="{{ url('homepage') }}" class="atf-smooth-move">Dashboard</a>
 
                                     </li>
-                                    <li><a href="/produk" class="atf-smooth-move">Perumahan</a>
+                                    <li><a href="{{ url('produk') }}" class="atf-smooth-move">Perumahan</a>
 
                                     </li>
-                                    <li><a href="/contact" class="atf-smooth-move">Kontak</a>
+                                    <li><a href="{{ url('contact') }}" class="atf-smooth-move">Kontak</a>
 
                                     </li>
                                 </ul>

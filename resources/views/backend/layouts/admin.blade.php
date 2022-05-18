@@ -42,7 +42,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="/sadmin">
+                <a class="nav-link" href="{{ url('sadmin') }}">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -52,36 +52,36 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="/user">
+                <a class="nav-link" href="{{ url('user') }}">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Data User</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="/dataproduk">
+                <a class="nav-link" href="{{ url('dataproduk') }}">
                     <i class="fas fa-fw fa-box"></i>
                     <span>Produk</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="/transaksi">
+                <a class="nav-link" href="{{ url('transaksi') }}">
                     <i class="fas fa-fw fa-square"></i>
                     <span>Transaksi</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="/dokumentasi">
+                <a class="nav-link" href="{{ url('dokumentasi') }}">
                     <i class="fas fa-fw fa-image"></i>
                     <span>Galeri</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="/informasis">
+                <a class="nav-link" href="{{ url('informasis') }}">
                     <i class="fas fa-fw fa-info"></i>
                     <span>Informasi</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pengguna">
+                <a class="nav-link" href="{{ url('pengguna') }}">
                     <i class="fas fa-fw fa-comment"></i>
                     <span>Komentar</span></a>
             </li>
