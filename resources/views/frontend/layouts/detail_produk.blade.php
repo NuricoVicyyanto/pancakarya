@@ -20,7 +20,7 @@
                     <b>Harga : Rp {{ $dok->harga }}</b>
                 </h5>
                 <a href="/transaksis" class="btn btn-success float-right shadow">Pesan</a><br><br>
-                <a href="https://wa.me/6281231242823?text=Hai Admin saya {{ auth()->user()->name }}, disini saya ingin menanyakan  produk perumahan yang ditawarkan pada website, apakah produk tersebut masih tersedia?" class="btn btn-success float-right shadow">Pesan WhatsApp</a>
+                <a href="https://wa.me/6281231242823?text=Hai Admin saya {{ auth()->user()->name }}, disini saya ingin menanyakan  produk perumahan yang ditawarkan pada website, apakah produk {{ $dok->namaproduk }} masih tersedia?" class="btn btn-success float-right shadow">Pesan WhatsApp</a>
                 </form>
             </div>
         </div>
