@@ -26,7 +26,7 @@
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="required" readonly value="{{ auth()->user()->name }}">
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="email" name="username" class="form-control" id="username" placeholder="Alamat" required="required">
+                  <input type="text" name="username" class="form-control" id="username" placeholder="Alamat" required="required">
                 </div>
                 <div class="form-group col-md-12">
                   <input type="text" name="email" class="form-control" id="email" placeholder="Your Subject" required="required" readonly value="{{ auth()->user()->email }}">
@@ -77,7 +77,7 @@
 
   <!-- Google Map start-->
   <div id="atf-map-area">
-    <iframe style="border:0" src="https://maps.google.com/maps?width=100%25&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" allowfullscreen></iframe>
+    <iframe style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1975.76990947112!2d113.80954440333556!3d-7.943032984868356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6c2d864dc07f7%3A0xf702b07180ea8f2f!2sPerum%20villa%20kembang%20Asri!5e0!3m2!1sid!2sid!4v1652881997042!5m2!1sid!2sid" allowfullscreen></iframe>
   </div>
   <!-- Google Map end -->
 
