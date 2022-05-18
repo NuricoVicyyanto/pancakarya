@@ -68,7 +68,7 @@
                             <div class="nav-right-part nav-right-part-desktop">
                                 <ul>
                                     {{-- <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li> --}}
-                                    <li class=""><a class="login-btn" href="/">Logout</a></li>
+                                    <li class=""><a class="login-btn" href="{{ url('logout') }}">Logout</a></li>
                                     {{-- <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li> --}}
                                 </ul>
                             </div>
@@ -95,7 +95,7 @@
 
                                 </li>
                                 {{-- <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li> --}}
-                                <li class=""><a class="login-btn" href="/login">Login</a></li>
+                                <li class=""><a class="login-btn" href="{{ url('login') }}">Login</a></li>
                                 {{-- <li><a class="shopping-cart-btn" href="#"><i class="fa fa-shopping-cart"></i><span>2</span></a></li> --}}
                             </ul>
                         </div>

@@ -40,6 +40,7 @@ Route::get('/data-pegawai', 'PegawaiController@index')->name('data-pegawai');
 
 //login
 Route::post('/postlogin', 'LoginController@postlogin')->name('postlogin');
+Route::get('/logout', 'LoginController@logout')->name('logout');
 Route::get('/registrasi', [LoginController ::class, 'registrasi']);
 Route::post('/simpanregistrasi', 'LoginController@simpanregistrasi')->name('simpanregistrasi');
 

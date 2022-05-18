@@ -17,12 +17,12 @@ class LoginController extends Controller
                 return redirect('/homepage');
             }
         }
-        return redirect('/login');
+        return redirect('/');
     }
 
     public function logout(){
         Auth::logout();
-        return redirect('/');
+        return redirect('/login');
     }
 
     public function registrasi(){
