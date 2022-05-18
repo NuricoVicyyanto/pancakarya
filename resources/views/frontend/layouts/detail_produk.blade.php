@@ -13,7 +13,7 @@
                 <p>{{ $dok->deskripsi }}</p>
                 <h3 class="my-3">Detail Produk</h3>
                 <ul>
-                    <li>Berat : {{ $dok->berat }}Kg</li>
+                    <li>Luas : {{ $dok->berat }} m<sup>2</sup></li>
                     <li>Stok : {{ $dok->stok }}</li>
                 </ul>
                 <h5 class="card-text text-justify">

@@ -20,7 +20,7 @@
             <input name="namaproduk" type="text" id="namaproduk" class="form-control" placeholder="Nama Produk">
           </div>
           <div class="form-group">
-            <label for="foto">Foto Guru</label>
+            <label for="foto">Foto Produk</label>
             <div class="custom-file">
               <input type="file" required class="custom-file-input" id="customFile" name="gambar" required>
               <label class="custom-file-label" for="customFile">Choose file</label>
@@ -31,10 +31,10 @@
             <input name="deskripsi" required type="text" id="deskripsi" class="form-control" placeholder="Deskripsi Produk">
           </div>
           <div class="form-group">
-            <input name="berat" type="number" required id="berat" class="form-control" placeholder="Berat Produk">
+            <input name="berat" type="number" required id="berat" class="form-control" placeholder="Luas">
           </div>
           <div class="form-group">
-            <input name="stok" type="number" required id="stok" class="form-control" placeholder="Stok Produk">
+            <input name="stok" type="number" required id="stok" class="form-control" placeholder="Jumlah">
           </div>
           <div class="form-group">
             <input name="harga" type="text" id="harga" required class="form-control" placeholder="Harga Produk">
