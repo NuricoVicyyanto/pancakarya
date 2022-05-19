@@ -49,6 +49,7 @@ class PenggunaController extends Controller
             'name' => $request->name,
             'username' => $request->username,
             'email' => $request->email,
+            'number' => $request->number,
             'password' => $request->password,
         ]);
         return redirect('pengguna');
