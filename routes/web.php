@@ -33,7 +33,7 @@ Route::get('/sadmin', [BackendController ::class, 'home']);
 //akses login
 Route::get('/login', function () {
     return view('backend/auth/login');
-});
+})->name('login');
 Route::get('/forgetpassword', 'UsersController@forgetpassword')->name('forgetpassword');
 
 Route::get('/data-pegawai', 'PegawaiController@index')->name('data-pegawai');
