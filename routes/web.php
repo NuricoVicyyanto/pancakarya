@@ -26,7 +26,7 @@ use App\Http\Controllers\PegawaiController;
 Route::get('/', 'FrontendController@index');
 
 //backend admin view controller
-Route::get('/sadmin', [BackendController ::class, 'home']);
+Route::get('/sadmin', [BackendController::class, 'home']);
 // Route::get('/user', [BackendController ::class, 'user']);
 // Route::get('user', 'UsersController@index')->name('user');
 
@@ -41,11 +41,11 @@ Route::get('/data-pegawai', 'PegawaiController@index')->name('data-pegawai');
 //login
 Route::post('/postlogin', 'LoginController@postlogin')->name('postlogin');
 Route::get('/logout', 'LoginController@logout')->name('logout');
-Route::get('/registrasi', [LoginController ::class, 'registrasi']);
+Route::get('/registrasi', [LoginController::class, 'registrasi']);
 Route::post('/simpanregistrasi', 'LoginController@simpanregistrasi')->name('simpanregistrasi');
 
 //auth
-Route::group(['middleware' => ['auth', 'ceklevel:admin']], function(){
+Route::group(['middleware' => ['auth', 'ceklevel:admin']], function () {
     //main
     Route::get('/sadmin', 'BackendController@index');
 
@@ -94,11 +94,11 @@ Route::group(['middleware' => ['auth', 'ceklevel:admin']], function(){
     Route::post('/updatetransaksi/{id}', 'TransaksiController@update')->name('updatetransaksi');
 });
 
-Route::group(['middleware' => ['auth', 'ceklevel:user']], function(){
+Route::group(['middleware' => ['auth', 'ceklevel:user']], function () {
 
     Route::post('/simpanpengguna', 'PenggunaController@store')->name('simpanpengguna');
     Route::get('/contact', 'PenggunaController@tambah')->name('contact');
-    Route::get('/detail_informasi', [FrontendController ::class, 'detail_informasi']);
+    Route::get('/detail_informasi', [FrontendController::class, 'detail_informasi']);
 
     Route::get('/dokumentasis', 'DokumentasiController@artikeldokumentasi')->name('dokumentasis');
     Route::get('/detaildokumentasi/{id}', 'DokumentasiController@detaildokumentasi')->name('detaildokumentasi');
