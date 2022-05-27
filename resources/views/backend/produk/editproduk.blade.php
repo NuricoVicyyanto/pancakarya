@@ -61,7 +61,7 @@
                 </div>
               </div>
             </div>
-            {{-- <button type="submit" class="btn btn-success">Update Data</button> --}}
+            <button type="submit" class="btn btn-success">Update Data</button>
           </div>
         </form>
       </div>
