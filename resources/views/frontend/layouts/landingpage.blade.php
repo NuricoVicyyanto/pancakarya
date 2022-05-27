@@ -321,9 +321,44 @@
 		</div> <!-- End Special Offer Area -->
 
 
+        <!-- Service-Area End-->
+        <h3><center> INFORMASI </center></h3>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="atf-single-service-wrap text-center">
+                        <div class="atf-single-service-wrap">
+                            <img src="../assets/img/blog/prs1.jpg" alt="">
+                            <div class="atf-service-content">
+                                <h4>Persyaratan Karyawan</h4>
+                                <p class="atf-post-description">
+                                    Persyaratan diatas berlaku untuk perumahan subsidi dan komersil
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="atf-single-service-wrap text-center">
+                        <div class="atf-single-service-wrap">
+                            <img src="../assets/img/blog/prs2.jpg" alt="">
+                            <div class="atf-service-content">
+                                <h4>Persyaratan Wiraswasta</h4>
+                                <p class="atf-post-description">
+                                    Persyaratan diatas berlaku untuk perumahan subsidi dan komersil
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <!-- Service-Area End-->
+
 
 		<div class="atf-section-padding atf-blog-area atf-blog-grid-area">
 			<div class="container">
+				<h3><center> PRODUK </center></h3>
 				<div class="atf-slider atf-style2">
 					<div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-lg-slides="3" data-add-slides="3">
 						<div class="slick-wrapper">
