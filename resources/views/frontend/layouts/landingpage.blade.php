@@ -352,6 +352,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
 
         <!-- Service-Area End-->
 
