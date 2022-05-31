@@ -176,8 +176,8 @@
                             <div class="atf-post-pic">
                                 <img src="../assets/img/blog/2.jpeg" alt="">
                                 <ul class="atf-post-category">
-                                    <li><a href="#">29 Dec,</a></li>
-                                    <li><a href="#">2020</a></li>
+                                    <li><a href="#">18 Januari,</a></li>
+                                    <li><a href="#">2021</a></li>
                                 </ul>
                             </div>
                             <div class="atf-post-header">
@@ -187,11 +187,11 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="#">Best Laptop Discount 30%..</a>
+                                    <a href="#">Boking mulai 1 jutaan dikawal sampai terima kunci!</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                            Dibuka dengan harga 300 jutaan rupiah.KPR DP 15 jutaan bisa dicicil 5x
                             </p>
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
