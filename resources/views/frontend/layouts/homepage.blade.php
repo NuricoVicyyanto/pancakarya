@@ -160,7 +160,7 @@
                     <div class="slick-slide-in">
                         <div class="atf-post-slide">
                             <div class="atf-post-pic">
-                                <img src="../assets/img/blog/2.jpeg" alt="">
+                                <img src="../assets/img/produk/Perumahan Casa Grande/2.jpg" alt="">
                                 <ul class="atf-post-category">
                                     <li><a href="#">15 Januari,</a></li>
                                     <li><a href="#">2021</a></li>
