@@ -160,7 +160,7 @@
                     <div class="slick-slide-in">
                         <div class="atf-post-slide">
                             <div class="atf-post-pic">
-                                <img src="../assets/img/blog/2.jpeg" alt="">
+                                <img src="../assets/img/produk/Perumahan Casa Grande/2.jpg" alt="">
                                 <ul class="atf-post-category">
                                     <li><a href="#">15 Januari,</a></li>
                                     <li><a href="#">2021</a></li>
@@ -173,7 +173,7 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="#">Boking mulai 1 jutaan dikawal sampai terima kunci!</a>
+                                    <a href="produk">Boking mulai 1 jutaan dikawal sampai terima kunci!</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
