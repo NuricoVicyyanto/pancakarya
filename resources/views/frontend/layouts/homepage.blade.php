@@ -187,7 +187,7 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="#">Boking mulai 1 jutaan dikawal sampai terima kunci!</a>
+                                    <a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
@@ -204,7 +204,7 @@
                             <div class="atf-post-pic">
                                 <img src="../assets/img/blog/2.jpeg" alt="">
                                 <ul class="atf-post-category">
-                                    <li><a href="#">29 Dec,</a></li>
+                                    <li><a href="#">28 Mei,</a></li>
                                     <li><a href="#">2020</a></li>
                                 </ul>
                             </div>
@@ -215,11 +215,11 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="#">Best Laptop Discount 30%..</a>
+                                    <a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                                KPR DP 15 Jutaan bisa dicicil 15x. Angsuran Perbulan hanya 2 jutaan rupiah.
                             </p>
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
@@ -243,11 +243,11 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="#">Best Laptop Discount 30%..</a>
+                                    <a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                                Huniaan impian untuk anak anak tumbuh, berkembang.  Haanya 300 juta saja kamu sudah bisa mendapatkan rumah impian.
                             </p>
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
@@ -260,8 +260,8 @@
                             <div class="atf-post-pic">
                                 <img src="../assets/img/blog/2.jpeg" alt="">
                                 <ul class="atf-post-category">
-                                    <li><a href="#">29 Dec,</a></li>
-                                    <li><a href="#">2020</a></li>
+                                    <li><a href="#">29 Sep,</a></li>
+                                    <li><a href="#">2022</a></li>
                                 </ul>
                             </div>
                             <div class="atf-post-header">
@@ -271,11 +271,11 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="#">Best Laptop Discount 30%..</a>
+                                    <a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                                BEbas Banjir. Desain Kekinian, Lokasi Strategis. GRATIS SHM!!!
                             </p>
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
@@ -288,8 +288,8 @@
                             <div class="atf-post-pic">
                                 <img src="../assets/img/blog/2.jpeg" alt="">
                                 <ul class="atf-post-category">
-                                    <li><a href="#">29 Dec,</a></li>
-                                    <li><a href="#">2020</a></li>
+                                    <li><a href="#">27 Oct,</a></li>
+                                    <li><a href="#">2021</a></li>
                                 </ul>
                             </div>
                             <div class="atf-post-header">
@@ -299,11 +299,11 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="#">Best Laptop Discount 30%..</a>
+                                    <a href="#">DpBooking mulai 5 jutaan dikawal sampai terima kunci!</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+                                DP hanya 10 Jutaan bisa dicicil 10x. Bisa KPR melalui bank Bxx
                             </p>
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
