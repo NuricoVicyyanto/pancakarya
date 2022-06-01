@@ -367,6 +367,7 @@
 							<div class="slick-slide-in">
 								<div class="atf-post-slide">
 									<div class="atf-post-pic">
+<<<<<<< Updated upstream
 										<img src="../assets/img/blog/2.jpeg" alt="">
 										<ul class="atf-post-category">
 											<li><a href="#">29 Sept,</a></li>
@@ -447,11 +448,93 @@
 									</div>
 								</div>
 							</div><!-- .slick-slide-in -->
+=======
+										<img src="../assets/img/produk/Perumahan Casa Grande/2.jpg" alt="">
+                                        <ul class="atf-post-category">
+                                            <li><a href="#">15 Januari,</a></li>
+                                            <li><a href="#">2021</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="atf-post-header">
+                                        <ul class="atf-post-bar">
+                                            <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+                                            <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                            <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                        </ul>
+                                        <h4 class="atf-post-title">
+                                            <a href="produk">Perumahan Casa Grande</a>
+                                        </h4>
+                                    </div>
+                                    <p class="atf-post-description">
+                                        Rumah subsidi dengan cicilan yang sangat murah tanpa biaya awal apapun.
+                                    </p>
+                                    <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                        <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                                    </div>
+                                </div>
+                            </div><!-- .slick-slide-in -->
+
+                            <div class="slick-slide-in">
+                                <div class="atf-post-slide">
+                                    <div class="atf-post-pic">
+                                        <img src="../assets/img/produk/Perumahan Rembangan Hill/1.jpeg" alt="">
+                                        <ul class="atf-post-category">
+                                            <li><a href="#">18 Januari,</a></li>
+                                            <li><a href="#">2021</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="atf-post-header">
+                                        <ul class="atf-post-bar">
+                                            <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+                                            <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                            <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                        </ul>
+                                        <h4 class="atf-post-title">
+                                            <a href="produk">Perumahan Rembangan Hill Residence</a>
+                                        </h4>
+                                    </div>
+                                    <p class="atf-post-description">
+                                        Tipe 72/69 dengan uang muka 5 Juta sudah bisa miliki rumah mewah ini
+                                    </p>
+                                    <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                        <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                                    </div>
+                                </div>
+                            </div><!-- .slick-slide-in -->
+
+                            <div class="slick-slide-in">
+                                <div class="atf-post-slide">
+                                    <div class="atf-post-pic">
+                                        <img src="../assets/img/produk/Perumahan Rembangan Hill/2.jpeg" alt="">
+                                        <ul class="atf-post-category">
+                                            <li><a href="#">28 Mei,</a></li>
+                                            <li><a href="#">2020</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="atf-post-header">
+                                        <ul class="atf-post-bar">
+                                            <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+                                            <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+                                            <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+                                        </ul>
+                                        <h4 class="atf-post-title">
+                                            <a href="produk">Perumahan Rembangan Hill Residence</a>
+                                        </h4>
+                                    </div>
+                                    <p class="atf-post-description">
+                                        Tipe 55/48 dengan uang muka 5 Juta sudah bisa miliki rumah mewah ini.
+                                    </p>
+                                    <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+                                        <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+                                    </div>
+                                </div>
+                            </div><!-- .slick-slide-in -->
+>>>>>>> Stashed changes
 
 							<div class="slick-slide-in">
 								<div class="atf-post-slide">
 									<div class="atf-post-pic">
-										<img src="../assets/img/blog/2.jpeg" alt="">
+										<img src="../assets/img/produk/Perumahan Sitinggil/1a.jpeg" alt="">
 										<ul class="atf-post-category">
 											<li><a href="#">29 Dec,</a></li>
 											<li><a href="#">2020</a></li>
@@ -464,11 +547,15 @@
 											<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
 										</ul>
 										<h4 class="atf-post-title">
+<<<<<<< Updated upstream
 											<a href="#">Perumahan SUBSIDI Untuk Keluarga Baru!</a>
+=======
+											<a href="produk">Perumahan De Sitinggil</a>
+>>>>>>> Stashed changes
 										</h4>
 									</div>
 									<p class="atf-post-description">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+										Rumah tipe 50 dengan uang muka hanya 5 juta saja sudah bisa memiliki rumah idaman.
 									</p>
 									<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
 										<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
@@ -479,8 +566,9 @@
 							<div class="slick-slide-in">
 								<div class="atf-post-slide">
 									<div class="atf-post-pic">
-										<img src="../assets/img/blog/2.jpeg" alt="">
+										<img src="../assets/img/produk/Perumahan Villa Botosari Kaliwates/1.jpeg" alt="">
 										<ul class="atf-post-category">
+<<<<<<< Updated upstream
 											<li><a href="#">29 Dec,</a></li>
 											<li><a href="#">2020</a></li>
 										</ul>
@@ -539,6 +627,10 @@
 										<ul class="atf-post-category">
 											<li><a href="#">29 Jan,</a></li>
 											<li><a href="#">2020</a></li>
+=======
+											<li><a href="#">20 Januari,</a></li>
+											<li><a href="#">2022</a></li>
+>>>>>>> Stashed changes
 										</ul>
 									</div>
 									<div class="atf-post-header">
@@ -548,11 +640,11 @@
 											<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
 										</ul>
 										<h4 class="atf-post-title">
-											<a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
+											<a href="#">Villa Botosari Kaliwates</a>
 										</h4>
 									</div>
 									<p class="atf-post-description">
-									Dibuka dengan harga 300 jutaan rupiah.KPR DP 15 jutaan bisa dicicil 5x
+										Rumah tipe 30/60 dengan uang muka hanya 500 Ribu saja sudah bisa memiliki rumah idaman.
 									</p>
 									<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
 										<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
