@@ -289,7 +289,7 @@
                                 </h4>
                             </div>
                             <p class="atf-post-description">
-                                BEbas Banjir. Desain Kekinian, Lokasi Strategis. GRATIS SHM!!!
+                                Bebas Banjir. Desain Kekinian, Lokasi Strategis. GRATIS SHM!!!
                             </p>
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
