@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Informasi;
+// use App\Models\Produk;
+
 
 class InformasiController extends Controller
 {
@@ -20,6 +22,8 @@ class InformasiController extends Controller
 
     public function artikelinformasi()
     {
+        // $dtProduk = Produk::all();
+
         $dtInformasi = Informasi::latest()->get();
         return view('frontend.layouts.informasi', compact('dtInformasi'));
     }

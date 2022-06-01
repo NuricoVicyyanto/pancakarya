@@ -173,11 +173,11 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="produk">Boking mulai 1 jutaan dikawal sampai terima kunci!</a>
+                                    <a href="produk">Perumahan Casa Grande</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
-                                Dibuka dengan harga 300 jutaan rupiah.KPR DP 15 jutaan bisa dicicil 5x.
+                                Rumah subsidi dengan cicilan yang sangat murah tanpa biaya awal apapun.
                             </p>
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
@@ -188,7 +188,7 @@
                     <div class="slick-slide-in">
                         <div class="atf-post-slide">
                             <div class="atf-post-pic">
-                                <img src="../assets/img/blog/2.jpeg" alt="">
+                                <img src="../assets/img/produk/Perumahan Rembangan Hill/1.jpeg" alt="">
                                 <ul class="atf-post-category">
                                     <li><a href="#">18 Januari,</a></li>
                                     <li><a href="#">2021</a></li>
@@ -201,11 +201,11 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
+                                    <a href="#">Perumahan Rembangan Hill Residence</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
-                            Dibuka dengan harga 300 jutaan rupiah.KPR DP 15 jutaan bisa dicicil 5x
+                                Tipe 72/69 dengan uang muka 5 Juta sudah bisa miliki rumah mewah ini
                             </p>
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
@@ -216,7 +216,7 @@
                     <div class="slick-slide-in">
                         <div class="atf-post-slide">
                             <div class="atf-post-pic">
-                                <img src="../assets/img/blog/2.jpeg" alt="">
+                                <img src="../assets/img/produk/Perumahan Rembangan Hill/2.jpeg" alt="">
                                 <ul class="atf-post-category">
                                     <li><a href="#">28 Mei,</a></li>
                                     <li><a href="#">2020</a></li>
@@ -229,11 +229,11 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
+                                    <a href="#">Perumahan Rembangan Hill Residence</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
-                                KPR DP 15 Jutaan bisa dicicil 15x. Angsuran Perbulan hanya 2 jutaan rupiah.
+                                Tipe 55/48 dengan uang muka 5 Juta sudah bisa miliki rumah mewah ini.
                             </p>
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
