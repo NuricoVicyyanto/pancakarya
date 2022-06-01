@@ -118,6 +118,20 @@
                     </div>
                 </div>
 
+                {{-- <div class="col-lg-4 col-md-6">
+                    <div class="atf-single-service-wrap text-center">
+                        <div class="atf-single-service-wrap">
+                            <img src="../assets/img/blog/alur.png" alt="">
+                            <div class="atf-service-content">
+                                <h4>ALUR PEMESANAN</h4>
+                                <p class="atf-post-description">
+                                    Berikut alur pemesanan mulai dari menyiapkan berkas hingga serah terima.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> --}}
+
                 <div class="col-lg-4 col-md-6">
                     <div class="atf-single-service-wrap text-center">
                         <div class="atf-single-service-wrap">

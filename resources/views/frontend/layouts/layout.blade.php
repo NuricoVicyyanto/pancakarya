@@ -129,7 +129,7 @@
         <!-- End Header Section -->
 
         <div class="atf-content clearfix">
-            <div class="atf-page-heading atf-size-md atf-dynamic-bg" data-stellar-background-ratio="0.3" style="background-image: url(../assets/img/blog/3.jpg); background-size:cover; background-position: center center;">
+            <div class="atf-page-heading atf-size-md atf-dynamic-bg" data-stellar-background-ratio="0.3" style="background-image: url(../assets/img/banner/5.jpeg); background-size:cover; background-position: center center;">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-7 col-md-6 col-12">

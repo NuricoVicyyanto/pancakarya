@@ -132,7 +132,7 @@
 											<!--LEFT COL-->
 											<div class="col-xl-6 col-lg-6 col-12 text-center atf-single-details ">
 												<h5 class="mb-0 d-block d-lg-block text-white">Panca Karya</h5>
-												<h2 class="mb-0 d-block d-lg-block">WEBSITE PENJUALAN PROPERTI</h2>
+												<h2 class="mb-0 d-block d-lg-block">INFORMASI PROPERTI</h2>
 												<h2 class="mb-0 d-block d-lg-block">KABUPATEN JEMBER</h2>
 												<p class="pr-lg-2">Mudah, Cepat dan Amanah</p>
 												<!-- Main-btn -->
@@ -186,7 +186,7 @@
 											<!--LEFT COL-->
 											<div class="col-xl-6 col-lg-6 col-12 text-center atf-single-details ">
 												<h5 class="mb-0 d-block d-lg-block text-white">Panca Karya</h5>
-												<h2 class="mb-0 d-block d-lg-block">WEBSITE PENJUALAN PROPERTI</h2>
+												<h2 class="mb-0 d-block d-lg-block">INFORMASI PROPERTI</h2>
 												<h2 class="mb-0 d-block d-lg-block">KABUPATEN JEMBER</h2>
 												<p class="pr-lg-2">Mudah, Cepat dan Amanah</p>
 												<!-- Main-btn -->
