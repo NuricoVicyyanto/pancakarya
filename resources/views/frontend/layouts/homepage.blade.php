@@ -173,7 +173,7 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="#">Boking mulai 1 jutaan dikawal sampai terima kunci!</a>
+                                    <a href="produk">Boking mulai 1 jutaan dikawal sampai terima kunci!</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
