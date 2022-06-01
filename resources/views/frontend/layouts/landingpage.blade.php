@@ -369,8 +369,8 @@
 									<div class="atf-post-pic">
 										<img src="../assets/img/blog/2.jpeg" alt="">
 										<ul class="atf-post-category">
-											<li><a href="#">29 Dec,</a></li>
-											<li><a href="#">2020</a></li>
+											<li><a href="#">29 Sept,</a></li>
+											<li><a href="#">2021</a></li>
 										</ul>
 									</div>
 									<div class="atf-post-header">
@@ -380,7 +380,7 @@
 											<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
 										</ul>
 										<h4 class="atf-post-title">
-											<a href="#">Best Laptop Discount 30%..</a>
+											<a href="#">DP 10% sudah bisa ditempati</a>
 										</h4>
 									</div>
 									<p class="atf-post-description">
@@ -436,7 +436,35 @@
 											<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
 										</ul>
 										<h4 class="atf-post-title">
-											<a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
+											<a href="#">DAFTAR HARI INI, TEMPATI HARI INI</a>
+										</h4>
+									</div>
+									<p class="atf-post-description">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
+									</p>
+									<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
+										<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
+									</div>
+								</div>
+							</div><!-- .slick-slide-in -->
+
+							<div class="slick-slide-in">
+								<div class="atf-post-slide">
+									<div class="atf-post-pic">
+										<img src="../assets/img/blog/2.jpeg" alt="">
+										<ul class="atf-post-category">
+											<li><a href="#">29 Dec,</a></li>
+											<li><a href="#">2020</a></li>
+										</ul>
+									</div>
+									<div class="atf-post-header">
+										<ul class="atf-post-bar">
+											<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
+											<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
+											<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
+										</ul>
+										<h4 class="atf-post-title">
+											<a href="#">Perumahan SUBSIDI Untuk Keluarga Baru!</a>
 										</h4>
 									</div>
 									<p class="atf-post-description">
@@ -492,35 +520,7 @@
 											<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
 										</ul>
 										<h4 class="atf-post-title">
-											<a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
-										</h4>
-									</div>
-									<p class="atf-post-description">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-									</p>
-									<div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-										<a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-									</div>
-								</div>
-							</div><!-- .slick-slide-in -->
-
-							<div class="slick-slide-in">
-								<div class="atf-post-slide">
-									<div class="atf-post-pic">
-										<img src="../assets/img/blog/2.jpeg" alt="">
-										<ul class="atf-post-category">
-											<li><a href="#">29 Dec,</a></li>
-											<li><a href="#">2020</a></li>
-										</ul>
-									</div>
-									<div class="atf-post-header">
-										<ul class="atf-post-bar">
-											<li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-											<li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-											<li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-										</ul>
-										<h4 class="atf-post-title">
-											<a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
+											<a href="#">Cicilan mulai 2,5 Juta rupiah/ bulan (selama 8 bulan)</a>
 										</h4>
 									</div>
 									<p class="atf-post-description">
