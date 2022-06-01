@@ -109,6 +109,7 @@ Route::group(['middleware' => ['auth', 'ceklevel:user']], function () {
 
     Route::get('/homepage', 'InformasiController@artikelhome')->name('homepage');
 
+
     Route::get('/produk', 'ProdukController@produk')->name('produk');
     Route::get('/detailproduk/{id}', 'ProdukController@detailproduk')->name('detailproduk');
 
