@@ -32,28 +32,7 @@
           <div class="form-group">
             <img src="{{ asset($dok->gambar)}}" height="10%" width="50%" alt="">
           </div>
-
-          <div class="form-group">
-            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Kirim</button>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ubah data</h5>
-                  </div>
-                  <div class="modal-body">
-                    Apakah anda yakin ingin mengubah data?
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Batal</button>
-                    <button type="submit" class="btn btn-success">Update Data</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {{-- <button type="submit" class="btn btn-success">Update Data</button> --}}
-          </div>
+          <button type="submit" class="btn btn-success">Update Data</button>
         </form>
       </div>
     </div>
