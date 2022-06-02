@@ -74,36 +74,36 @@
     <div class="col-md-4">
       <div class="card" style="width: 20rem; margin: 40px;">
         <img src="{{ asset($item->sampul)}}" class="img-thumbnail" alt="image" alt="">
-        <div class="card-body">
-          <h4 class="atf-post-title">
-            <a href="#">{{ $item->namaproduk}}</a>
-          </h4>
-          <div class="row">
-            <div class="col">
-              <span>
-                <i class="fa fa-chart-area"></i> {{ $item->berat}}<sup>2</sup>
-              </span>
-            </div>
-            <div class="col">
-              <span>
-                <i class="fa fa-bed"></i> 2
-              </span>
-            </div>
-            <div class="col">
-              <span>
-                <i class="fa fa-shower"></i> 1
-              </span>
-            </div>
-          </div>
-          <p class="card-text">{{ $item->deskripsi}}</p>
-          <div class="atf-main-btn atf-blog-btn mt-2">
-            <a href="{{ url('detailproduk', $item->id) }}" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>
-          </div>
-        </div>
-      </div>
+<div class="card-body">
+  <h4 class="atf-post-title">
+    <a href="#">{{ $item->namaproduk}}</a>
+  </h4>
+  <div class="row">
+    <div class="col">
+      <span>
+        <i class="fa fa-chart-area"></i> {{ $item->berat}}<sup>2</sup>
+      </span>
     </div>
-    @endforeach
+    <div class="col">
+      <span>
+        <i class="fa fa-bed"></i> 2
+      </span>
+    </div>
+    <div class="col">
+      <span>
+        <i class="fa fa-shower"></i> 1
+      </span>
+    </div>
   </div>
+  <p class="card-text">{{ $item->deskripsi}}</p>
+  <div class="atf-main-btn atf-blog-btn mt-2">
+    <a href="{{ url('detailproduk', $item->id) }}" class="atf-themes-btn">INFO DETAIL<i class="fa fa-angle-right atf-blogs-btn"></i></a>
+  </div>
+</div>
+</div>
+</div>
+@endforeach
+</div>
 </div> --}}
 
 <div class="container">
@@ -137,29 +137,36 @@
               <a href="{{ url('detailproduk', $item->id) }}" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
             </div>
           </div>
-        </div><!--- END COL -->
+        </div>
+        <!--- END COL -->
         @endforeach
-        
-        
-        
+
+
+
         <div class="col-lg-12 col-md-12 col-12">
           <!-- Pagination Starts -->
           <nav class="atf-blog-pagination mt-5" aria-label="Page navigation example">
             <ul class="pagination justify-content-center mb-0">
-            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-double-left"></i></a></li>
-            <li class="page-item"><a class="page-link" href="#">01</a></li>
-            <li class="page-item active"><a class="page-link" href="#">02</a></li>
-            <li class="page-item"><a class="page-link" href="#">03</a></li>
-            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-double-right"></i></a></li>
+              <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-double-left"></i></a></li>
+              <li class="page-item"><a class="page-link" href="#">01</a></li>
+              <li class="page-item active"><a class="page-link" href="#">02</a></li>
+              <li class="page-item"><a class="page-link" href="#">03</a></li>
+              <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-double-right"></i></a></li>
             </ul>
           </nav>
-          <!-- Pagination Ends --> 
-        </div><!--- END COL -->
-      </div><!--- END ROW -->
-    </div><!--- END COL -->
-  </div><!--- END ROW -->
-</div><!--- END CONTAINER -->
-</div><!--- END Section -->
+          <!-- Pagination Ends -->
+        </div>
+        <!--- END COL -->
+      </div>
+      <!--- END ROW -->
+    </div>
+    <!--- END COL -->
+  </div>
+  <!--- END ROW -->
+</div>
+<!--- END CONTAINER -->
+</div>
+<!--- END Section -->
 </div>
 <!--- END CONTENT -->
 
@@ -167,7 +174,8 @@
 
 
 
-</div><!--- END CONTAINER -->
+</div>
+<!--- END CONTAINER -->
 <br><br>
 
 @stop

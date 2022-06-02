@@ -157,10 +157,11 @@
         <div class="atf-slider atf-style2">
             <div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-lg-slides="3" data-add-slides="3">
                 <div class="slick-wrapper">
+                @foreach ($dtInformasi as $item)
                     <div class="slick-slide-in">
                         <div class="atf-post-slide">
                             <div class="atf-post-pic">
-                                <img src="../assets/img/produk/Perumahan Casa Grande/2.jpg" alt="">
+                            <img src="{{ asset($item->gambar)}}" alt="">
                                 <ul class="atf-post-category">
                                     <li><a href="#">15 Januari,</a></li>
                                     <li><a href="#">2021</a></li>
@@ -173,185 +174,19 @@
                                     <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
                                 </ul>
                                 <h4 class="atf-post-title">
-                                    <a href="produk">Perumahan Casa Grande</a>
+                                    <a href="produk">{{ $item->judul}}</a>
                                 </h4>
                             </div>
                             <p class="atf-post-description">
-                                Rumah subsidi dengan cicilan yang sangat murah tanpa biaya awal apapun.
+                            {{ $item->konten}}
                             </p>
                             <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
                                 <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
                             </div>
                         </div>
-                    </div><!-- .slick-slide-in -->
+                    </div><!-- .slick-slide-in -->@endforeach
 
-                    <div class="slick-slide-in">
-                        <div class="atf-post-slide">
-                            <div class="atf-post-pic">
-                                <img src="../assets/img/produk/Perumahan Rembangan Hill/1.jpeg" alt="">
-                                <ul class="atf-post-category">
-                                    <li><a href="#">18 Januari,</a></li>
-                                    <li><a href="#">2021</a></li>
-                                </ul>
-                            </div>
-                            <div class="atf-post-header">
-                                <ul class="atf-post-bar">
-                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-                                </ul>
-                                <h4 class="atf-post-title">
-                                    <a href="produk">Perumahan Rembangan Hill Residence</a>
-                                </h4>
-                            </div>
-                            <p class="atf-post-description">
-                                Tipe 72/69 dengan uang muka 5 Juta sudah bisa miliki rumah mewah ini
-                            </p>
-                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- .slick-slide-in -->
-
-                    <div class="slick-slide-in">
-                        <div class="atf-post-slide">
-                            <div class="atf-post-pic">
-                                <img src="../assets/img/produk/Perumahan Rembangan Hill/2.jpeg" alt="">
-                                <ul class="atf-post-category">
-                                    <li><a href="#">28 Mei,</a></li>
-                                    <li><a href="#">2020</a></li>
-                                </ul>
-                            </div>
-                            <div class="atf-post-header">
-                                <ul class="atf-post-bar">
-                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-                                </ul>
-                                <h4 class="atf-post-title">
-                                    <a href="produk">Perumahan Rembangan Hill Residence</a>
-                                </h4>
-                            </div>
-                            <p class="atf-post-description">
-                                Tipe 55/48 dengan uang muka 5 Juta sudah bisa miliki rumah mewah ini.
-                            </p>
-                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- .slick-slide-in -->
-
-                    <div class="slick-slide-in">
-                        <div class="atf-post-slide">
-                            <div class="atf-post-pic">
-                                <img src="../assets/img/blog/2.jpeg" alt="">
-                                <ul class="atf-post-category">
-                                    <li><a href="#">29 Dec,</a></li>
-                                    <li><a href="#">2020</a></li>
-                                </ul>
-                            </div>
-                            <div class="atf-post-header">
-                                <ul class="atf-post-bar">
-                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-                                </ul>
-                                <h4 class="atf-post-title">
-                                    <a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
-                                </h4>
-                            </div>
-                            <p class="atf-post-description">
-                                Huniaan impian untuk anak anak tumbuh, berkembang.  Haanya 300 juta saja kamu sudah bisa mendapatkan rumah impian.
-                            </p>
-                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- .slick-slide-in -->
-
-                    <div class="slick-slide-in">
-                        <div class="atf-post-slide">
-                            <div class="atf-post-pic">
-                                <img src="../assets/img/blog/2.jpeg" alt="">
-                                <ul class="atf-post-category">
-                                    <li><a href="#">29 Sep,</a></li>
-                                    <li><a href="#">2022</a></li>
-                                </ul>
-                            </div>
-                            <div class="atf-post-header">
-                                <ul class="atf-post-bar">
-                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-                                </ul>
-                                <h4 class="atf-post-title">
-                                    <a href="#">Booking mulai 5 jutaan dikawal sampai terima kunci!</a>
-                                </h4>
-                            </div>
-                            <p class="atf-post-description">
-                                Bebas Banjir. Desain Kekinian, Lokasi Strategis. GRATIS SHM!!!
-                            </p>
-                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- .slick-slide-in -->
-
-                    <div class="slick-slide-in">
-                        <div class="atf-post-slide">
-                            <div class="atf-post-pic">
-                                <img src="../assets/img/blog/2.jpeg" alt="">
-                                <ul class="atf-post-category">
-                                    <li><a href="#">27 Oct,</a></li>
-                                    <li><a href="#">2021</a></li>
-                                </ul>
-                            </div>
-                            <div class="atf-post-header">
-                                <ul class="atf-post-bar">
-                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-                                </ul>
-                                <h4 class="atf-post-title">
-                                    <a href="#">DpBooking mulai 5 jutaan dikawal sampai terima kunci!</a>
-                                </h4>
-                            </div>
-                            <p class="atf-post-description">
-                                DP hanya 10 Jutaan bisa dicicil 10x. Bisa KPR melalui bank Bxx
-                            </p>
-                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- .slick-slide-in -->
-
-                    <div class="slick-slide-in">
-                        <div class="atf-post-slide">
-                            <div class="atf-post-pic">
-                                <img src="../assets/img/blog/2.jpeg" alt="">
-                                <ul class="atf-post-category">
-                                    <li><a href="#">29 Dec,</a></li>
-                                    <li><a href="#">2020</a></li>
-                                </ul>
-                            </div>
-                            <div class="atf-post-header">
-                                <ul class="atf-post-bar">
-                                    <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-                                    <li><i class="fa fa-comments"></i><a href="">7.5k</a></li>
-                                    <li><i class="fab fa-gratipay"></i><a href="">2.3k</a></li>
-                                </ul>
-                                <h4 class="atf-post-title">
-                                    <a href="#">Best Laptop Discount 30%..</a>
-                                </h4>
-                            </div>
-                            <p class="atf-post-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur.
-                            </p>
-                            <div class="atf-main-btn atf-blog-btn mt-2 pb-4 ml-3">
-                                <a href="#" class="atf-themes-btn">Read More <i class="fa fa-angle-right atf-blogs-btn"></i></a>
-                            </div>
-
-                        </div>
+                
 
                     </div><!-- .slick-slide-in -->
 

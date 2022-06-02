@@ -45,14 +45,13 @@ class PenggunaController extends Controller
      */
     public function store(Request $request)
     {
-        $dtUpload = new Pengguna();
-        $dtUpload->name = $request->name;
-        $dtUpload->username = $request->username;
-        $dtUpload->email = $request->email;
-        $dtUpload->number = $request->number;
-        $dtUpload->password = $request->password;
-        $dtUpload->save();
-
+        Pengguna::create([
+            'name' => $request->name,
+            'username' => $request->username,
+            'email' => $request->email,
+            'number' => $request->number,
+            'password' => $request->password,
+        ]);
         return redirect('pengguna');
     }
 
