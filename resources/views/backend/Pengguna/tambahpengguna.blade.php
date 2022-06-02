@@ -28,6 +28,9 @@
             <input name="email" type="number" required id="email" class="form-control" placeholder="No hp">
           </div>
           <div class="form-group">
+            <input name="number" type="text" id="Password" required class="form-control" placeholder="isi">
+          </div>
+          <div class="form-group">
             <input name="password" type="text" id="Password" required class="form-control" placeholder="Komentar">
           </div>
           <div class="form-group">
