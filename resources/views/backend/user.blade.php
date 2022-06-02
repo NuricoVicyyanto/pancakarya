@@ -29,7 +29,11 @@
                             <td>{{ $item->email }}</td>
                             <td>{{ $item->level }}</td>
                             <td>
+                                @if($item->level == 'user')
                                 <a class="btn btn-danger" href="{{ url('hapususer', $item->id) }}" role="button">Hapus</a>
+                                @else
+                                <!-- pass -->
+                                @endif
                             </td>
                         </tr>
                         @endforeach
