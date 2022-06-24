@@ -54,7 +54,7 @@ class DokumentasiController extends Controller
         // $destinationPath= public_path("/img");
         // $namaFile = $destinationPath .$nm->getClientOriginalName();
         $nm = $request->gambar;
-        $namaFile = "http://127.0.0.1:8000/img/" . $nm->getClientOriginalName();
+        $namaFile = "http://103.157.27.211:8000/img/" . $nm->getClientOriginalName();
 
         $dtUpload = new dokumentasi;
         $dtUpload->judul = $request->judul;

@@ -43,7 +43,7 @@ class TransaksiController extends Controller
     public function store(Request $request)
     {
         $nm = $request->gambar;
-        $namaFile = "http://127.0.0.1:8000/img/" . $nm->getClientOriginalName();
+        $namaFile = "http://103.157.27.211:8000/img/" . $nm->getClientOriginalName();
 
         $dtUpload = new transaksi;
         $dtUpload->nama = $request->nama;

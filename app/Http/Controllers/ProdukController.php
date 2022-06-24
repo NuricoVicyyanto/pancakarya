@@ -97,7 +97,7 @@ class ProdukController extends Controller
     public function update(Request $request, $id)
     {
         $nm = $request->file('sampul');
-        $namaFile = "http://127.0.0.1:8000/img/" . $nm->getClientOriginalName();
+        $namaFile = "http://103.157.27.211:8000/img/" . $nm->getClientOriginalName();
 
         $updateProduk = Produk::findOrFail($id);
         $updateProduk->namaproduk = $request->namaproduk;
